@@ -1,0 +1,1239 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+  text-decoration: none;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.report-page-6Nw {
+  box-sizing: border-box;
+  padding-right: 4rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 203.7rem;
+  background-color: #fafafd;
+}
+.report-page-6Nw .component-1-mjy {
+  margin-right: 4rem;
+  box-sizing: border-box;
+  padding: 5rem 3rem 135.2rem 3rem;
+  width: 24.2rem;
+  height: 203.7rem;
+  overflow: hidden;
+  position: fixed;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #080808;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-33-rWX {
+  margin-bottom: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-33-rWX .image-4-oAs {
+  margin-right: 7rem;
+  width: 8rem;
+  height: 4.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-33-rWX .list-vmH {
+  width: 3.2rem;
+  height: 3.2rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb {
+  margin: 0 1.65rem;
+  width: calc(100% - 3.3rem);
+  row-gap: 4rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .pages-CTu {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.3025;
+  letter-spacing: -0.012rem;
+  color: #ffffff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .auto-group-rngk-iSF {
+  width: 100%;
+  height: 20rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .auto-group-rngk-iSF .component-2-TPq {
+  width: 14.9rem;
+  height: 19.1rem;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .auto-group-rngk-iSF .component-2-TPq .frame-7-Bqd {
+  margin: 0rem 3.3rem 2rem 0rem;
+  width: calc(100% - 3.3rem);
+  display: flex;
+  align-items: flex-end;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .auto-group-rngk-iSF .component-2-TPq .frame-7-Bqd .chart-2-vHR {
+  margin-right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .auto-group-rngk-iSF .component-2-TPq .frame-7-Bqd .industry-data-TYF {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  letter-spacing: -0.014rem;
+  color: #f9f5ff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .auto-group-rngk-iSF .component-2-TPq .auto-group-sh2b-Bj9 {
+  box-sizing: border-box;
+  padding: 2rem 0rem 5.1rem 0rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .auto-group-rngk-iSF .component-2-TPq .auto-group-sh2b-Bj9 .frame-3-hSb {
+  margin: 0rem 1.4rem 4rem 0rem;
+  box-sizing: border-box;
+  padding: 0.063rem 0rem 0rem 0.188rem;
+  width: calc(100% - 1.4rem);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .auto-group-rngk-iSF .component-2-TPq .auto-group-sh2b-Bj9 .frame-3-hSb .plugcharging-1iB {
+  margin: 0rem 1.188rem 0.063rem 0rem;
+  width: 1.625rem;
+  height: 1.875rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .auto-group-rngk-iSF .component-2-TPq .auto-group-sh2b-Bj9 .frame-3-hSb .generation-data-jeB {
+  margin-top: 0.0375rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  letter-spacing: -0.014rem;
+  color: #f9f5ff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .auto-group-rngk-iSF .component-2-TPq .auto-group-sh2b-Bj9 .frame-4-SoV {
+  margin-right: 0.2rem;
+  box-sizing: border-box;
+  padding: 0.1rem 0rem 0rem 0.062rem;
+  width: calc(100% - 0.2rem);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .auto-group-rngk-iSF .component-2-TPq .auto-group-sh2b-Bj9 .frame-4-SoV .broadcast-mas {
+  margin: 0rem 1.062rem 0.1rem 0rem;
+  width: 1.8755rem;
+  height: 1.3521rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .auto-group-rngk-iSF .component-2-TPq .auto-group-sh2b-Bj9 .frame-4-SoV .transmission-data-Vmm {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  letter-spacing: -0.014rem;
+  color: #f9f5ff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .auto-group-rngk-iSF .frame-5-Dhm {
+  box-sizing: border-box;
+  padding-top: 0.1rem;
+  width: 13.8rem;
+  height: 2rem;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 18rem;
+  display: flex;
+  align-items: center;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .auto-group-rngk-iSF .frame-5-Dhm .usb-YEF {
+  margin: 0rem 1rem 0.1rem 0rem;
+  width: 2.0001rem;
+  height: 1.5rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .auto-group-rngk-iSF .frame-5-Dhm .distribution-data-U7u {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  letter-spacing: -0.014rem;
+  color: #f9f5ff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .frame-6-zM9 {
+  margin-right: 2.2rem;
+  box-sizing: border-box;
+  padding: 0.1rem 0rem 0.1rem 0.219rem;
+  width: calc(100% - 2.2rem);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .frame-6-zM9 .circuitry-K8X {
+  margin-right: 1.2188rem;
+  width: 1.5625rem;
+  height: 1.5625rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .frame-6-zM9 .customer-data-Siw {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3020000458;
+  letter-spacing: -0.014rem;
+  color: #f9f5ff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .component-3-Mqu {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .component-3-Mqu .frame-7-WTu {
+  margin: 0rem 5.5rem 2rem 0rem;
+  width: calc(100% - 5.5rem);
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .component-3-Mqu .frame-7-WTu .chart-2-3ij {
+  margin-right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .component-3-Mqu .frame-7-WTu .industry-data-Pnb {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  letter-spacing: -0.014rem;
+  color: #f9f5ff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .component-3-Mqu .auto-group-pnhr-KRM {
+  box-sizing: border-box;
+  padding: 2rem 0;
+  width: 100%;
+  height: 15.1rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .component-3-Mqu .auto-group-pnhr-KRM .frame-8-TGf {
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 1.2rem;
+  background-color: #504973;
+  padding: 1em;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .component-3-Mqu .auto-group-pnhr-KRM .frame-8-TGf .bookbookmark-obR {
+  margin-right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .component-1-mjy .frame-4-4cb .component-3-Mqu .auto-group-pnhr-KRM .frame-8-TGf .energy-report-LbM {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3020000458;
+  letter-spacing: -0.014rem;
+  color: #f9f5ff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 {
+  margin-bottom: 5rem;
+  width: 111.8rem;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  margin-left: 28rem;
+}
+.report-page-6Nw .frame-38-qo1 .energy-performance-tracker-akb {
+  margin: 0rem 0rem 3rem 3rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.3025;
+  letter-spacing: -0.032rem;
+  text-transform: uppercase;
+  color: #667085;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ {
+  margin-bottom: 6rem;
+  box-sizing: border-box;
+  padding: 3rem 2rem 0rem 2rem;
+  width: 100%;
+  height: 52rem;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum {
+  margin-right: 2rem;
+  box-sizing: border-box;
+  padding: 3.824rem 3.389rem 4.303rem 3.432rem;
+  width: 52.9rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #eaecf0;
+  background-color: #ffffff;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-x29q-Gmq {
+  margin: 0rem 0.072rem 3.176rem 0rem;
+  width: 46.0075rem;
+  height: 5.6683rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-x29q-Gmq .card-info-Q7M {
+  width: 14.5rem;
+  height: 100%;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-x29q-Gmq .card-info-Q7M .type-card-kh1 {
+  margin-bottom: 0.8683rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.1111111111;
+  color: #9290a4;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-x29q-Gmq .card-info-Q7M .card-title-HB9 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2727272727;
+  color: #1e1b39;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .divider-1sq {
+  margin: 0rem 0.072rem 0.731rem 0rem;
+  width: 46.0074rem;
+  height: 0.1rem;
+  background-color: #e5e5ef;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy {
+  margin: 0rem 0rem 1.762rem 0.082rem;
+  width: calc(100% - 0.082rem);
+  height: 27.8358rem;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .amounts-Tzj {
+  margin: 0rem 1.729rem 0.274rem 0rem;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .amounts-Tzj .m-Q9H {
+  margin: 0rem 0rem 4.846rem 0rem;
+  text-align: right;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .amounts-Tzj .m-85H {
+  margin: 0rem 0rem 4.582rem 0rem;
+  text-align: right;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .amounts-Tzj .m-FQo {
+  margin: 0rem 0rem 4.757rem 0rem;
+  text-align: right;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .amounts-Tzj .m-me3 {
+  margin: 0rem 0rem 4.168rem 0rem;
+  text-align: right;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .amounts-Tzj .item-0-tTm {
+  text-align: right;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ {
+  width: 42.0676rem;
+  height: 100%;
+  position: relative;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .chart-lines-AgB {
+  box-sizing: border-box;
+  padding: 6.271rem 0rem 6.536rem 0rem;
+  width: 41.996rem;
+  height: 25.6714rem;
+  position: absolute;
+  left: 0;
+  top: 2.1644rem;
+  row-gap: 6.2071rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid 0.15rem #e5e5ef;
+  border-top: dashed 0.15rem #e5e5ef;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .chart-lines-AgB .line-2-DeT {
+  margin-right: 0rem;
+  width: calc(100% - 0rem);
+  height: 0.15rem;
+  background-color: #e5e5ef;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .chart-lines-AgB .line-3-MEs {
+  width: 100%;
+  height: 0.15rem;
+  background-color: #e5e5ef;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .chart-lines-AgB .line-4-6iF {
+  margin: 0rem 0rem 0.179rem 0rem;
+  width: calc(100% - 0rem);
+  height: 0.15rem;
+  background-color: #e5e5ef;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .bars-chart-bQ7 {
+  width: 41.9818rem;
+  height: 25.5476rem;
+  position: absolute;
+  left: 0.0857rem;
+  top: 1.9617rem;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .bars-chart-bQ7 .active-bar-hover-8Q3 {
+  width: 7.8264rem;
+  height: 19.977rem;
+  position: absolute;
+  left: 10.9511rem;
+  top: 5.5675rem;
+  background-color: #f2f1ff;
+  border-radius: 1.3rem 1.3rem 0.1rem 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .bars-chart-bQ7 .bars-DRV {
+  width: 41.9818rem;
+  height: 25.5476rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 0.8rem;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .bars-chart-bQ7 .bars-DRV .bar-group-1-kAX {
+  margin: 0rem 5.764rem 0rem 0rem;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .bars-chart-bQ7 .bars-DRV .bar-group-1-kAX .blue-bar-1-gps {
+  margin: 0rem 1.037rem 0rem 0rem;
+  width: 2.5677rem;
+  height: 18.0574rem;
+  background-color: #34a6f0;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .bars-chart-bQ7 .bars-DRV .bar-group-1-kAX .purple-bar-1-ouV {
+  margin-bottom: 0rem;
+  width: 2.5677rem;
+  height: 14.4575rem;
+  background-color: #3448f0;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .bars-chart-bQ7 .bars-DRV .bar-group-2-Xab {
+  margin: 0rem 5.764rem 0rem 0rem;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .bars-chart-bQ7 .bars-DRV .bar-group-2-Xab .blue-bar-2-sPZ {
+  margin: 0rem 1.037rem 0rem 0rem;
+  width: 2.5677rem;
+  height: 19.0658rem;
+  background-color: #34a6f0;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .bars-chart-bQ7 .bars-DRV .bar-group-2-Xab .purple-bar-2-Bf9 {
+  margin-bottom: 0rem;
+  width: 2.5677rem;
+  height: 14.4857rem;
+  background-color: #3448f0;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .bars-chart-bQ7 .bars-DRV .bar-group-3-Jzf {
+  margin: 0rem 5.764rem 0rem 0rem;
+  height: calc(100% - 0rem);
+  display: flex;
+  align-items: flex-end;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .bars-chart-bQ7 .bars-DRV .bar-group-3-Jzf .blue-bar-3-eod {
+  margin-right: 1.0372rem;
+  width: 2.5677rem;
+  height: 25.5475rem;
+  background-color: #34a6f0;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .bars-chart-bQ7 .bars-DRV .bar-group-3-Jzf .purple-bar-3-zMh {
+  margin-bottom: 0rem;
+  width: 2.5677rem;
+  height: 22.2374rem;
+  background-color: #3448f0;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .bars-chart-bQ7 .bars-DRV .bar-group-4-7hD {
+  margin-bottom: 0rem;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .bars-chart-bQ7 .bars-DRV .bar-group-4-7hD .blue-bar-4-Ga7 {
+  margin-right: 1.0373rem;
+  width: 2.5677rem;
+  height: 12.0794rem;
+  background-color: #34a6f0;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .bars-chart-bQ7 .bars-DRV .bar-group-4-7hD .purple-bar-4-bcP {
+  margin-bottom: 0rem;
+  width: 2.5677rem;
+  height: 4.5647rem;
+  background-color: #3448f0;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .numbers-hover-Jmh {
+  box-sizing: border-box;
+  padding: 1.381rem 1.245rem 1.381rem 1.245rem;
+  width: 6.9496rem;
+  height: 6.5732rem;
+  position: absolute;
+  left: 11.4751rem;
+  top: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1b39;
+  border-radius: 1.3rem;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .numbers-hover-Jmh .amount-1-D7y {
+  margin: 0rem 0.207rem 0.491rem 0rem;
+  box-sizing: border-box;
+  padding-right: 0.2006rem;
+  width: calc(100% - 0.2075rem);
+  height: 1.6479rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .numbers-hover-Jmh .amount-1-D7y .identifier-XeT {
+  margin: 0rem 0.415rem 0rem 0rem;
+  width: 1.0373rem;
+  height: 1.1951rem;
+  background-color: #34a6f0;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .numbers-hover-Jmh .amount-1-D7y .number-THD {
+  margin-bottom: 0.2479rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.1666666667;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .numbers-hover-Jmh .amount-2-a6w {
+  box-sizing: border-box;
+  padding-right: 0.108rem;
+  width: 100%;
+  height: 1.6732rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .numbers-hover-Jmh .amount-2-a6w .identifier-iU3 {
+  margin: 0rem 0.415rem 0rem 0rem;
+  width: 1.0373rem;
+  height: 1.1951rem;
+  background-color: #3448f0;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .auto-group-m3kq-YMy .auto-group-2ydv-cuZ .numbers-hover-Jmh .amount-2-a6w .number-pX5 {
+  margin-bottom: 0.2732rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.1666666667;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .years-va7 {
+  margin-left: 3.8762rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .years-va7 .item-2019-5C7 {
+  margin-right: 8.4874rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .years-va7 .item-2020-bAT {
+  margin-right: 8.5954rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .years-va7 .item-2021-X47 {
+  margin-right: 8.5365rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .chart-2-Mum .years-va7 .item-2022-TTZ {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .frame-35-A75 {
+  box-sizing: border-box;
+  padding: 3rem 3rem 3.3rem 3rem;
+  width: 52.9rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 2.4rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .frame-35-A75 .frame-32-gbD {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .frame-35-A75 .frame-32-gbD .data-statistics-dmM {
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.032rem;
+  color: #93aafd;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .frame-35-A75 .frame-32-gbD .load-profile-MST {
+  margin-bottom: 2rem;
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.072rem;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .frame-35-A75 .frame-32-gbD .investment-in-clean-energy-technologies-is-significantly-outpacing-spending-on-fossil-fuels-as-affordability-and-security-concerns-triggered-by-the-global-energy-crisis-strengthen-the-momentum-behind-more-sustainable-options-according-to-the-iea-world-energy-investment-2023-report-annual-clean-energy-investment-is-expected-to-rise-by-24-between-2021-and-2023-driven-by-renewables-and-electric-vehicles-compared-with-a-15-rise-in-fossil-fuel-investment-over-the-same-period-but-more-than-90-of-this-increase-comes-from-advanced-economies-and-china-presenting-a-serious-risk-of-new-dividing-lines-in-global-energy-if-clean-energy-transitions-dont-pick-up-elsewhere-sfh {
+  margin-bottom: 1.7rem;
+  max-width: 46.9rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3999999762;
+  letter-spacing: -0.032rem;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .frame-35-A75 .frame-32-gbD .frame-57-6B5 {
+  margin: 0rem 38.8rem 0rem 0.3rem;
+  width: calc(100% - 39.1rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .frame-35-A75 .frame-32-gbD .frame-57-6B5 .arrowcircleleft-pcs {
+  margin-right: 2.6rem;
+  width: 2.6rem;
+  height: 2.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .auto-group-xqef-5BZ .frame-39-zpK .frame-35-A75 .frame-32-gbD .frame-57-6B5 .arrowcircleright-Mco {
+  width: 2.6rem;
+  height: 2.6rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .component-3-g9H {
+  margin-bottom: 8rem;
+  box-sizing: border-box;
+  padding: 3rem 2rem;
+  width: 100%;
+  height: 63.6rem;
+  display: flex;
+  align-items: center;
+  background-color: #eff2f7;
+  border-radius: 2.4rem;
+}
+.report-page-6Nw .frame-38-qo1 .component-3-g9H .frame-35-1ST {
+  margin-right: 8rem;
+  box-sizing: border-box;
+  padding: 9.75rem 3rem;
+  width: 55rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 2.4rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .component-3-g9H .frame-35-1ST .frame-32-k99 {
+  width: 100%;
+  height: 100%;
+  row-gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.report-page-6Nw .frame-38-qo1 .component-3-g9H .frame-35-1ST .frame-32-k99 .latest-reports-tWF {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.032rem;
+  color: #93aafd;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .component-3-g9H .frame-35-1ST .frame-32-k99 .empowering-state-governments--p91 {
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.072rem;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .component-3-g9H .frame-35-1ST .frame-32-k99 .annual-clean-energy-investment-is-expected-to-rise-by-24-between-2021-and-2023-driven-by-renewables-and-electric-vehicles-compared-with-a-15-rise-in-fossil-fuel-investment-over-the-same-period-but-more-than-90-of-this-increase-comes-from-advanced-economies-and-china-presenting-a-serious-risk-of-new-dividing-lines-in-global-energy-if-clean-energy-transitions-dont-pick-up-elsewhere-investment-in-clean-energy-technologies-is-significantly-outpacing-spending-on-fossil-fuels-as-affordability-and-security-concerns-triggered-by-the-global-energy-crisis-strengthen-the-momentum-behind-more-sustainable-options-according-to-the-iea-world-energy-investment-2023-report-8vP {
+  max-width: 49rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: -0.03rem;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .component-3-g9H .frame-35-1ST .frame-32-k99 .frame-57-BXH {
+  margin-right: 40.6rem;
+  width: calc(100% - 40.6rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .component-3-g9H .frame-35-1ST .frame-32-k99 .frame-57-BXH .arrowcircleleft-Xb9 {
+  margin-right: 2rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .component-3-g9H .frame-35-1ST .frame-32-k99 .frame-57-BXH .arrowcircleright-Tjh {
+  width: 3.2rem;
+  height: 3.2rem;
+  cursor: pointer;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .component-3-g9H .frame-59-NLs {
+  width: 44.8rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .component-3-g9H .frame-59-NLs .image-46-Why {
+  margin-bottom: 2rem;
+  width: 44.8rem;
+  height: 48.4rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .component-3-g9H .frame-59-NLs .frame-58-T7R {
+  box-sizing: border-box;
+  padding: 2.2rem 14.6rem 2.2rem 14.9rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: solid 0.15rem #185b86;
+  background-color: #e3eefe;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .component-3-g9H .frame-59-NLs .frame-58-T7R .arrowlinedown-n9h {
+  margin: 0rem 1.9rem 0.1rem 0rem;
+  width: 2.4rem;
+  height: 2.5rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .component-3-g9H .frame-59-NLs .frame-58-T7R .view-report-uEK {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: -0.04rem;
+  color: #504973;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR {
+  margin: 0rem 5rem 0rem 5rem;
+  width: calc(100% - 10rem);
+  display: flex;
+  flex-direction: column;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-427318218-UAw {
+  margin: 0rem 0.3rem 4rem 0rem;
+  width: calc(100% - 0.3rem);
+  height: 4.8rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-427318218-UAw .frame-427318219-Br3 {
+  margin-right: 52.6rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-427318218-UAw .frame-427318219-Br3 .reports-KhM {
+  margin-right: 3.3rem;
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.072rem;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-427318218-UAw .frame-427318219-Br3 .input-Smy {
+  box-sizing: border-box;
+  padding: 1.4rem;
+  width: 25rem;
+  height: 100%;
+  border: solid 0.1rem #eaecf0;
+  background-color: #ffffff;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-427318218-UAw .frame-427318219-Br3 .input-Smy .content-CFM {
+  box-sizing: border-box;
+  padding: 0.25rem 0rem 0.25rem 0.25rem;
+  width: 13.5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-427318218-UAw .frame-427318219-Br3 .input-Smy .content-CFM .search-KKy {
+  margin-right: 1.05rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-427318218-UAw .frame-427318219-Br3 .input-Smy .content-CFM .text-SvP {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1;
+  color: #a8a8ae;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-427318218-UAw .frame-57-kRH {
+  margin: 1.1rem 0rem 1.1rem 0rem;
+  height: calc(100% - 2.2rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-427318218-UAw .frame-57-kRH .arrowcircleleft-HAK {
+  margin-right: 2.6rem;
+  width: 2.6rem;
+  height: 2.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-427318218-UAw .frame-57-kRH .arrowcircleright-cTV {
+  width: 2.6rem;
+  height: 2.6rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-64-x1Z {
+  width: 100%;
+  height: 43.2rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-64-x1Z .frame-61-VnB {
+  margin-right: 2.5rem;
+  box-sizing: border-box;
+  padding: 2rem;
+  width: 32.2667rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #eaecf0;
+  background-color: #ffffff;
+  border-radius: 2.4rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-64-x1Z .frame-61-VnB .frame-60-ppT {
+  margin-bottom: 3rem;
+  width: 100%;
+  height: 25rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #ffffff;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/frame-60-bg-xmH.png');
+  border-radius: 1.2rem 1.2rem 0 0;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-64-x1Z .frame-61-VnB .frame-65-w8P {
+  margin-right: 3.2667rem;
+  row-gap: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-64-x1Z .frame-61-VnB .frame-65-w8P .empowering-state-governments--5VV {
+  max-width: 16.6rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.04rem;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-64-x1Z .frame-61-VnB .frame-65-w8P .annual-clean-energy-investment-is-expected-to-rise-by-24-oAb {
+  max-width: 25rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4000000272;
+  letter-spacing: -0.028rem;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-64-x1Z .frame-61-VnB .frame-65-w8P .read-more--6vP {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.032rem;
+  color: #93aafd;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-64-x1Z .frame-62-zF5 {
+  margin-right: 2.5rem;
+  box-sizing: border-box;
+  padding: 2rem;
+  width: 32.2667rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #eaecf0;
+  background-color: #ffffff;
+  border-radius: 2.4rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-64-x1Z .frame-62-zF5 .frame-60-L43 {
+  margin-bottom: 3rem;
+  width: 100%;
+  height: 25rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #ffffff;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/frame-60-bg.png');
+  border-radius: 1.2rem 1.2rem 0 0;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-64-x1Z .frame-62-zF5 .frame-65-r2P {
+  margin-right: 7.0667rem;
+  row-gap: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-64-x1Z .frame-62-zF5 .frame-65-r2P .inaugurating-ai-into-the-power-sector-nRq {
+  max-width: 21rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.04rem;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-64-x1Z .frame-62-zF5 .frame-65-r2P .annual-clean-energy-investment-is-expected-to-rise-by-24-WMq {
+  max-width: 21.2rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4000000272;
+  letter-spacing: -0.028rem;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-64-x1Z .frame-62-zF5 .frame-65-r2P .read-more--cfm {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.032rem;
+  color: #93aafd;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-64-x1Z .frame-63-WFM {
+  box-sizing: border-box;
+  padding: 2rem;
+  width: 32.2667rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #eaecf0;
+  background-color: #ffffff;
+  border-radius: 2.4rem;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-64-x1Z .frame-63-WFM .frame-60-FTq {
+  margin-bottom: 3rem;
+  width: 100%;
+  height: 25rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #ffffff;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/frame-60-bg-otF.png');
+  border-radius: 1.2rem 1.2rem 0 0;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-64-x1Z .frame-63-WFM .frame-65-ZjR {
+  margin-right: 6.1667rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-64-x1Z .frame-63-WFM .frame-65-ZjR .energy-power-analysis-vK5 {
+  margin-bottom: 2.8rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.04rem;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-64-x1Z .frame-63-WFM .frame-65-ZjR .annual-clean-energy-investment-is-expected-to-rise-by-24-2su {
+  margin-bottom: 0.8rem;
+  max-width: 21.2rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.4000000272;
+  letter-spacing: -0.028rem;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.report-page-6Nw .frame-38-qo1 .frame-58-LqR .frame-64-x1Z .frame-63-WFM .frame-65-ZjR .read-more--wEB {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.032rem;
+  color: #93aafd;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}

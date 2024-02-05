@@ -1,0 +1,50 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 112rem;
+}.frame-48-Lpb {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.frame-48-Lpb .chart-10-VhV {
+  margin-right: 1.6rem;
+  width: 55.2rem;
+  height: 20rem;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.frame-48-Lpb .chart-10-VhV .container-2hR {
+  width: 100%;
+  height: 20rem;
+  border: solid 0.1rem #eaecf0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+.frame-48-Lpb .chart-8-9n3 {
+  width: 55.2rem;
+  height: 20rem;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+.frame-48-Lpb .chart-8-9n3 .container-Juq {
+  width: 100%;
+  height: 20rem;
+  border: solid 0.1rem #eaecf0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}

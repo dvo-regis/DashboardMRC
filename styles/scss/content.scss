@@ -1,0 +1,110 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 110rem;
+}.content-7Lo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border: dashed 0.1rem #9747ff;
+  box-sizing: border-box;
+  padding: 2rem;
+
+  .property-1default-Fhu {
+    margin-bottom: 4.4rem;
+    width: 100%;
+    height: 4.4rem;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+
+    .frame-427318215-CNF {
+      line-height: 1.5555555556;
+      font-family: DM Sans, 'Source Sans Pro';
+      justify-content: center;
+      border-radius: 1.6rem;
+      font-weight: 600;
+      text-align: center;
+      font-size: 1.8rem;
+      color: #f1f1f1;
+      white-space: nowrap;
+      width: 48.6rem;
+      display: flex;
+      align-items: center;
+      background-color: #000000;
+      flex-shrink: 0;
+      height: 100%;
+    }
+    .auto-group-ypgt-gHR {
+      width: 57.4rem;
+      height: 100%;
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #1f1f24;
+      font-family: DM Sans, 'Source Sans Pro';
+      flex-shrink: 0;
+      line-height: 1.5555555556;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .property-1default-PSj {
+    width: 100%;
+    height: 4.4rem;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+
+    .frame-427318215-8v7 {
+      width: 48.6rem;
+      font-weight: 600;
+      white-space: nowrap;
+      flex-shrink: 0;
+      box-sizing: border-box;
+      height: 100%;
+      cursor: pointer;
+      font-size: 1.8rem;
+      font-family: DM Sans, 'Source Sans Pro';
+      margin-right: 8.8rem;
+      padding: 0.8rem 2.4rem;
+      color: #1f1f24;
+      border-radius: 1.6rem;
+      line-height: 1.5555555556;
+    }
+    .frame-427318216-Dgf {
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-weight: 600;
+      line-height: 1.5555555556;
+      font-size: 1.8rem;
+      color: #eff0fe;
+      flex-shrink: 0;
+      border-radius: 1.6rem;
+      width: 48.6rem;
+      font-family: DM Sans, 'Source Sans Pro';
+      background-color: #000000;
+      height: 100%;
+    }
+  }
+}

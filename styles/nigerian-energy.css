@@ -1,0 +1,1246 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+  text-decoration: none;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.nigerian-energy-eom {
+  box-sizing: border-box;
+  padding-right: 4rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+.nigerian-energy-eom .component-1-9kX {
+  margin-right: 4rem;
+  box-sizing: border-box;
+  padding: 5rem 2.9rem 185.2rem 2.9rem;
+  width: 24rem;
+  height: 253.6rem;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #080808;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-33-3L7 {
+  margin-bottom: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-33-3L7 .image-4-bMd {
+  margin-right: 7rem;
+  width: 8rem;
+  height: 4.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-33-3L7 .list-v91 {
+  width: 3.2rem;
+  height: 3.2rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH {
+  margin: 0 1.65rem;
+  width: calc(100% - 3.3rem);
+  row-gap: 4rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .pages-y7H {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.3025;
+  letter-spacing: -0.012rem;
+  color: #ffffff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .auto-group-vtxy-V5d {
+  width: 100%;
+  height: 20rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .auto-group-vtxy-V5d .component-2-EJ7 {
+  width: 14.9rem;
+  height: 19.1rem;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .auto-group-vtxy-V5d .component-2-EJ7 .frame-7-m39 {
+  margin: 0rem 3.3rem 2rem 0rem;
+  width: calc(100% - 3.3rem);
+  display: flex;
+  align-items: flex-end;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .auto-group-vtxy-V5d .component-2-EJ7 .frame-7-m39 .chart-2-tdZ {
+  margin-right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .auto-group-vtxy-V5d .component-2-EJ7 .frame-7-m39 .industry-data-2Us {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  letter-spacing: -0.014rem;
+  color: #f9f5ff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .auto-group-vtxy-V5d .component-2-EJ7 .auto-group-pzb1-MX9 {
+  box-sizing: border-box;
+  padding: 2rem 0rem 5.1rem 0rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .auto-group-vtxy-V5d .component-2-EJ7 .auto-group-pzb1-MX9 .frame-3-5T9 {
+  margin: 0rem 1.4rem 4rem 0rem;
+  box-sizing: border-box;
+  padding: 0.063rem 0rem 0rem 0.188rem;
+  width: calc(100% - 1.4rem);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .auto-group-vtxy-V5d .component-2-EJ7 .auto-group-pzb1-MX9 .frame-3-5T9 .plugcharging-z4K {
+  margin: 0rem 1.188rem 0.063rem 0rem;
+  width: 1.625rem;
+  height: 1.875rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .auto-group-vtxy-V5d .component-2-EJ7 .auto-group-pzb1-MX9 .frame-3-5T9 .generation-data-tQb {
+  margin-top: 0.0375rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  letter-spacing: -0.014rem;
+  color: #f9f5ff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .auto-group-vtxy-V5d .component-2-EJ7 .auto-group-pzb1-MX9 .frame-4-nks {
+  margin-right: 0.2rem;
+  box-sizing: border-box;
+  padding: 0.1rem 0rem 0rem 0.062rem;
+  width: calc(100% - 0.2rem);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .auto-group-vtxy-V5d .component-2-EJ7 .auto-group-pzb1-MX9 .frame-4-nks .broadcast-uqV {
+  margin: 0rem 1.062rem 0.1rem 0rem;
+  width: 1.8755rem;
+  height: 1.3521rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .auto-group-vtxy-V5d .component-2-EJ7 .auto-group-pzb1-MX9 .frame-4-nks .transmission-data-e2P {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  letter-spacing: -0.014rem;
+  color: #f9f5ff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .auto-group-vtxy-V5d .frame-5-y4f {
+  box-sizing: border-box;
+  padding-top: 0.1rem;
+  width: 13.8rem;
+  height: 2rem;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 18rem;
+  display: flex;
+  align-items: center;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .auto-group-vtxy-V5d .frame-5-y4f .usb-VHu {
+  margin: 0rem 1rem 0.1rem 0rem;
+  width: 2.0001rem;
+  height: 1.5rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .auto-group-vtxy-V5d .frame-5-y4f .distribution-data-cdR {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  letter-spacing: -0.014rem;
+  color: #f9f5ff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .frame-6-LpK {
+  margin-right: 2.2rem;
+  box-sizing: border-box;
+  padding: 0.1rem 0rem 0rem 0.219rem;
+  width: calc(100% - 2.2rem);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .frame-6-LpK .circuitry-TP9 {
+  margin: 0rem 1.219rem 0.1rem 0rem;
+  width: 1.5625rem;
+  height: 1.5625rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .frame-6-LpK .customer-data-MDd {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  letter-spacing: -0.014rem;
+  color: #f9f5ff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .component-3-pd1 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .component-3-pd1 .frame-7-ZKh {
+  margin: 0rem 5.5rem 2rem 0rem;
+  width: calc(100% - 5.5rem);
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .component-3-pd1 .frame-7-ZKh .chart-2-gv7 {
+  margin-right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .component-3-pd1 .frame-7-ZKh .industry-data-S8b {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  letter-spacing: -0.014rem;
+  color: #f9f5ff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .component-3-pd1 .auto-group-yg5r-A4b {
+  box-sizing: border-box;
+  padding: 2rem 0;
+  width: 14.8rem;
+  height: 15rem;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .component-3-pd1 .auto-group-yg5r-A4b .frame-8-6iw {
+  box-sizing: border-box;
+  padding-right: 0.1rem;
+  width: 12.1rem;
+  height: 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 1.2rem;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .component-3-pd1 .auto-group-yg5r-A4b .frame-8-6iw .bookbookmark-SXu {
+  margin-right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .component-1-9kX .frame-4-FBH .component-3-pd1 .auto-group-yg5r-A4b .frame-8-6iw .energy-report-n5y {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  letter-spacing: -0.014rem;
+  color: #f9f5ff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 {
+  margin-bottom: 2.9rem;
+  width: 112rem;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .energy-performance-tracker-bJK {
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.3020000458;
+  letter-spacing: -0.032rem;
+  text-transform: uppercase;
+  color: #667085;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-67-HB9 {
+  margin-bottom: 5rem;
+  box-sizing: border-box;
+  padding: 3.2rem 5rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  border: solid 0.1rem #eaecf0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.200000003) 0%, rgba(0, 0, 0, 0.200000003) 100%);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/frame-67-bg-ehR.png');
+  border-radius: 2.4rem;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-67-HB9 .nigerian-energy-supply-by-continent-yearly-pRy {
+  max-width: 54.5rem;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 1.2000000477;
+  color: #ffffff;
+  font-family: DM Sans, 'Source Sans Pro';
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-39-Dyu {
+  margin: 0rem 2rem 5rem 2rem;
+  width: calc(100% - 4rem);
+  height: 45rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-39-Dyu .frame-35-9sZ {
+  margin-right: 2rem;
+  box-sizing: border-box;
+  padding: 4.7rem 3.2rem 0rem 3rem;
+  width: 55rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 2.4rem;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-39-Dyu .frame-35-9sZ .frame-32-GhH {
+  box-sizing: border-box;
+  padding-bottom: 4.8rem;
+  width: 100%;
+  height: 40.9rem;
+  row-gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-39-Dyu .frame-35-9sZ .frame-32-GhH .data-statistics-bjZ {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.032rem;
+  color: #93aafd;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-39-Dyu .frame-35-9sZ .frame-32-GhH .clean-energy-investments-iJP {
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-39-Dyu .frame-35-9sZ .frame-32-GhH .investment-in-clean-energy-technologies-is-significantly-outpacing-spending-on-fossil-fuels-as-affordability-and-security-concerns-triggered-by-the-global-energy-crisis-strengthen-the-momentum-behind-more-sustainable-options-according-to-the-iea-world-energy-investment-2023-report-annual-clean-energy-investment-is-expected-to-rise-by-24-between-2021-and-2023-driven-by-renewables-and-electric-vehicles-compared-with-a-15-rise-in-fossil-fuel-investment-over-the-same-period-but-more-than-90-of-this-increase-comes-from-advanced-economies-and-china-presenting-a-serious-risk-of-new-dividing-lines-in-global-energy-if-clean-energy-transitions-dont-pick-up-elsewhere-Dkw {
+  max-width: 48.8rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3999999762;
+  letter-spacing: -0.032rem;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-39-Dyu .chart-6-wTy {
+  box-sizing: border-box;
+  padding: 3rem 7.3rem 3.9rem 6.3rem;
+  width: 51rem;
+  height: 100%;
+  box-shadow: 0 0.2rem 0.6rem rgba(13, 10, 44, 0.0799999982);
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-39-Dyu .chart-6-wTy .pie-sections-Gm9 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 1rem;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-39-Dyu .chart-6-wTy .pie-sections-Gm9 .section-1-QsM {
+  box-sizing: border-box;
+  padding: 5.3178rem 9.3262rem;
+  width: 35rem;
+  height: 35rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2727272727;
+  color: #ffffff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/section-bwR.png');
+  border-radius: 1rem;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-39-Dyu .chart-6-wTy .pie-sections-Gm9 .secton-2-ErP {
+  box-sizing: border-box;
+  padding: 5.806rem 6.17rem 5.806rem 24.13rem;
+  width: 35rem;
+  height: 35rem;
+  position: absolute;
+  left: 2.4rem;
+  top: 2.6886rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2727272727;
+  color: #ffffff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/section-KhM.png');
+  border-radius: 1rem;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-39-Dyu .chart-6-wTy .pie-sections-Gm9 .section-3-5s1 {
+  box-sizing: border-box;
+  padding: 25.932rem 5.038rem 6.268rem 25.262rem;
+  width: 35rem;
+  height: 35rem;
+  position: absolute;
+  left: 2.4rem;
+  top: 3.1rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2727272727;
+  color: #ffffff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/section-PS3.png');
+  border-radius: 1rem;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-39-Dyu .chart-6-wTy .pie-sections-Gm9 .section-4-Xj1 {
+  box-sizing: border-box;
+  padding: 13.07rem 2.826rem 10.328rem 2.826rem;
+  width: 35rem;
+  height: 35rem;
+  position: absolute;
+  left: 2.05rem;
+  top: 3.1rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/section-2Ls.png');
+  border-radius: 1rem;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-39-Dyu .chart-6-wTy .pie-sections-Gm9 .section-4-Xj1 .chart-info-RpP {
+  margin: 0rem 9.074rem 2.102rem 8.374rem;
+  width: calc(100% - 17.4477rem);
+  height: 6.98rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-39-Dyu .chart-6-wTy .pie-sections-Gm9 .section-4-Xj1 .chart-info-RpP .amount-info-x3d {
+  width: 11.9rem;
+  height: 3.2rem;
+  position: absolute;
+  left: 0;
+  top: 3.78rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.7777777778;
+  color: #9290a4;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-39-Dyu .chart-6-wTy .pie-sections-Gm9 .section-4-Xj1 .chart-info-RpP .amount-info-x3d .amount-info-x3d-sub-0 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.7777777778;
+  color: #9290a4;
+  font-family: DM Sans, 'Source Sans Pro';
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-39-Dyu .chart-6-wTy .pie-sections-Gm9 .section-4-Xj1 .chart-info-RpP .amount-info-x3d .amount-info-x3d-sub-1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.7777777778;
+  color: #9290a4;
+  font-family: DM Sans, 'Source Sans Pro';
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-39-Dyu .chart-6-wTy .pie-sections-Gm9 .section-4-Xj1 .chart-info-RpP .amount-5AB {
+  width: 8.4rem;
+  height: 5.2rem;
+  position: absolute;
+  left: 1.8rem;
+  top: 0;
+  text-align: center;
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 1.1818181818;
+  color: #1e1b39;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-39-Dyu .chart-6-wTy .pie-sections-Gm9 .section-4-Xj1 .percentage-9vj {
+  margin-right: 24.5477rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2727272727;
+  color: #ffffff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 {
+  margin-bottom: 6rem;
+  box-sizing: border-box;
+  padding: 3rem 4rem;
+  width: 100%;
+  height: 40.2rem;
+  display: flex;
+  align-items: center;
+  background-color: #eff2f7;
+  border-radius: 2.4rem;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf {
+  margin: 0.541rem 5rem 0.541rem 0rem;
+  box-sizing: border-box;
+  padding: 1.659rem 3.332rem 4.859rem 3.3rem;
+  width: 51rem;
+  height: calc(100% - 1.0813rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.2rem 0.6rem rgba(13, 10, 44, 0.0799999982);
+  background-color: #fafafd;
+  border-radius: 2.4rem;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-vqgb-y2b {
+  margin-bottom: 1.9rem;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-vqgb-y2b .card-info-7Ph {
+  margin: 0rem 17.1rem 0.4rem 0rem;
+  box-sizing: border-box;
+  padding-top: 2.4rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2727272727;
+  color: #1e1b39;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-vqgb-y2b .drop-selector-CR9 {
+  margin-top: 2rem;
+  box-sizing: border-box;
+  padding: 1rem 1.6rem;
+  display: flex;
+  align-items: center;
+  background-color: #eff2f7;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-vqgb-y2b .drop-selector-CR9 .name-XyD {
+  margin-right: 2.4rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-vqgb-y2b .drop-selector-CR9 .chevron-Tby {
+  margin-top: 0rem;
+  width: 0.9678rem;
+  height: 0.5457rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .divider-Niw {
+  margin: 0rem 0.013rem 3.7rem 0rem;
+  width: calc(100% - 0.0128rem);
+  height: 0.1rem;
+  background-color: #e5e5ef;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 {
+  margin-right: 0.7678rem;
+  width: calc(100% - 0.7678rem);
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .pie-CT5 {
+  margin: 0rem 5.6rem 0.3rem 0rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/section-2-yNT.png');
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .pie-CT5 .section-1-XkF {
+  width: 15rem;
+  height: 15rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV {
+  height: 14.4rem;
+  display: flex;
+  column-gap: 0.9rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318199-BZu {
+  margin: 0.4rem 0rem 0.3rem 0rem;
+  width: 0.8rem;
+  height: calc(100% - 0.7rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318199-BZu .identifier-Hcw {
+  margin-bottom: 2.4rem;
+  width: 100%;
+  height: 0.8rem;
+  background-color: #34a6f0;
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318199-BZu .identifier-Rj9 {
+  margin-bottom: 2.4rem;
+  width: 100%;
+  height: 0.8rem;
+  background-color: #267fb9;
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318199-BZu .identifier-mY7 {
+  margin-bottom: 2.4rem;
+  width: 100%;
+  height: 0.8rem;
+  background-color: #185b86;
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318199-BZu .identifier-KJj {
+  margin-bottom: 2.5rem;
+  width: 100%;
+  height: 0.8rem;
+  background-color: #9ac9fa;
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318199-BZu .identifier-GDy {
+  width: 100%;
+  height: 0.8rem;
+  background-color: #e3eefe;
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318198-NXu {
+  height: 100%;
+  row-gap: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318198-NXu .name-u23 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.1428571429;
+  color: #1e1b39;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318198-NXu .name-S1y {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.1428571429;
+  color: #1e1b39;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318198-NXu .name-BET {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.1428571429;
+  color: #1e1b39;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318198-NXu .name-89h {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.1428571429;
+  color: #1e1b39;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318198-NXu .name-UUT {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.1428571429;
+  color: #1e1b39;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318197-2F5 {
+  height: 100%;
+  row-gap: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318197-2F5 .percentage-mTZ {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318197-2F5 .percentage-7GX {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318197-2F5 .percentage-3vs {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318197-2F5 .percentage-QFd {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318197-2F5 .percentage-8hR {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318196-e9y {
+  height: 100%;
+  row-gap: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318196-e9y .growht-yxw {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #03b500;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318196-e9y .growht-Kmu {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #dd7578;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318196-e9y .growht-Gh9 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #03b500;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318196-e9y .growht-Cqh {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #dd7578;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .chart-7-HQf .auto-group-wsdh-fT9 .identifiers-3yV .frame-427318196-e9y .growht-MTh {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #03b500;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .frame-35-3LX {
+  box-sizing: border-box;
+  padding: 2rem 0;
+  width: 48rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 2.4rem;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .frame-35-3LX .frame-32-abM {
+  width: 100%;
+  height: 28.1rem;
+  display: flex;
+  flex-direction: column;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .frame-35-3LX .frame-32-abM .data-statistics-L4j {
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.032rem;
+  color: #93aafd;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .frame-35-3LX .frame-32-abM .percentage-indices-3jq {
+  margin-bottom: 2rem;
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .frame-35-3LX .frame-32-abM .investment-in-clean-energy-technologies-is-significantly-outpacing-spending-on-fossil-fuels-as-affordability-and-security-concerns-triggered-by-the-global-energy-crisis-strengthen-the-momentum-behind-more-sustainable-options-according-to-the-iea-world-energy-investment-2023-report-9H5 {
+  margin-bottom: 2.8rem;
+  max-width: 46.5rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3999999762;
+  letter-spacing: -0.032rem;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .frame-35-3LX .frame-32-abM .frame-57-jFH {
+  margin: 0rem 39.9rem 0rem 0.3rem;
+  width: calc(100% - 40.2rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .frame-35-3LX .frame-32-abM .frame-57-jFH .arrowcircleleft-rqh {
+  margin-right: 2.6rem;
+  width: 2.6rem;
+  height: 2.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-68-nD1 .frame-35-3LX .frame-32-abM .frame-57-jFH .arrowcircleright-zBD {
+  width: 2.6rem;
+  height: 2.6rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 {
+  margin: 0rem 2rem 6rem 2rem;
+  width: calc(100% - 4rem);
+  height: 49rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .frame-35-D3y {
+  margin-right: 5rem;
+  box-sizing: border-box;
+  padding: 3rem 3rem 3.3rem 3rem;
+  width: 52rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 2.4rem;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .frame-35-D3y .frame-32-vUB {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .frame-35-D3y .frame-32-vUB .data-statistics-rcj {
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.032rem;
+  color: #93aafd;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .frame-35-D3y .frame-32-vUB .load-profile-Zn3 {
+  margin-bottom: 2rem;
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .frame-35-D3y .frame-32-vUB .in-nigeria-energy-usage-spans-residential-commercial-industrial-transportation-and-agricultural-sectors-challenges-persist-due-to-unreliable-electricity-access-leading-to-reliance-on-alternative-sources-like-generators-efforts-to-improve-reliability-and-sustainability-include-exploring-renewable-energy-sources-and-enhancing-infrastructure-across-sectors-anticipated-trends-in-nigerias-energy-sector-for-the-next-year-include-a-continued-focus-on-renewable-energy-growth-potential-policy-reforms-efforts-to-diversify-the-energy-mix-and-ongoing-investments-in-infrastructure-despite-progress-challenges-in-power-reliability-and-access-might-persist-but-initiatives-to-address-these-issues-are-expected-to-continue-72s {
+  margin-bottom: 1.7rem;
+  max-width: 45.9rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3999999762;
+  letter-spacing: -0.032rem;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .frame-35-D3y .frame-32-vUB .frame-57-wg7 {
+  margin: 0rem 37.9rem 0rem 0.3rem;
+  width: calc(100% - 38.2rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .frame-35-D3y .frame-32-vUB .frame-57-wg7 .arrowcircleleft-FRu {
+  margin-right: 2.6rem;
+  width: 2.6rem;
+  height: 2.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .frame-35-D3y .frame-32-vUB .frame-57-wg7 .arrowcircleright-YR1 {
+  width: 2.6rem;
+  height: 2.6rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .chart-9-rRh {
+  margin: 1.029rem 0rem 1.029rem 0rem;
+  box-sizing: border-box;
+  padding: 3.2rem 3.2rem 4.772rem 3.2rem;
+  width: 51rem;
+  height: calc(100% - 2.0576rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .chart-9-rRh .auto-group-dyik-KaB {
+  margin-bottom: 2.2rem;
+  width: 100%;
+  height: 5.4rem;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .chart-9-rRh .auto-group-dyik-KaB .card-info-3FH {
+  margin-right: 20.8rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .chart-9-rRh .auto-group-dyik-KaB .card-info-3FH .type-card-yud {
+  margin-bottom: 0.4rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.1111111111;
+  color: #9290a4;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .chart-9-rRh .auto-group-dyik-KaB .card-info-3FH .card-title-uoH {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2727272727;
+  color: #1e1b39;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .chart-9-rRh .auto-group-dyik-KaB .amount-info-qgw {
+  height: 100%;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .chart-9-rRh .auto-group-dyik-KaB .amount-info-qgw .info-zpj {
+  text-align: right;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.1111111111;
+  color: #9290a4;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .chart-9-rRh .auto-group-dyik-KaB .amount-info-qgw .amount-XJs {
+  text-align: right;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.4166666667;
+  color: #1e1b39;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .chart-9-rRh .divider-2mR {
+  margin-bottom: 1.5rem;
+  width: 100%;
+  height: 0.1rem;
+  background-color: #e5e5ef;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .chart-9-rRh .auto-group-5tdv-BPR {
+  margin-right: 1.7039rem;
+  width: 42.8961rem;
+  height: 29.7702rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .chart-9-rRh .auto-group-5tdv-BPR .pie-iPM {
+  width: 27.659rem;
+  height: 27.659rem;
+  position: absolute;
+  left: 8.4705rem;
+  top: 2.1112rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/section-2-Ygj.png');
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .chart-9-rRh .auto-group-5tdv-BPR .pie-iPM .section-1-EMh {
+  width: 27.659rem;
+  height: 27.659rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .chart-9-rRh .auto-group-5tdv-BPR .indicator-2-Lfd {
+  width: 12.2474rem;
+  height: 11.2271rem;
+  position: absolute;
+  left: 30.6487rem;
+  top: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .chart-9-rRh .auto-group-5tdv-BPR .indicator-2-Lfd .indicator-2-fhu {
+  width: 4.7372rem;
+  height: 4.7372rem;
+  position: absolute;
+  left: 0;
+  top: 6.4898rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .chart-9-rRh .auto-group-5tdv-BPR .indicator-2-Lfd .hover-stat-Cxj {
+  box-sizing: border-box;
+  padding: 1.2rem 1.5rem 1.2rem 1.381rem;
+  width: 8.2809rem;
+  height: 6.8rem;
+  position: absolute;
+  left: 3.9665rem;
+  top: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1b39;
+  border-radius: 1.3rem;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .chart-9-rRh .auto-group-5tdv-BPR .indicator-2-Lfd .hover-stat-Cxj .name-Vgw {
+  margin-bottom: 0.2rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.125;
+  color: #e5e5ef;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .chart-9-rRh .auto-group-5tdv-BPR .indicator-2-Lfd .hover-stat-Cxj .amount-R4o {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.3333333333;
+  color: #ffffff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .chart-9-rRh .auto-group-5tdv-BPR .indicator-1-jLP {
+  width: 12.0301rem;
+  height: 9.1125rem;
+  position: absolute;
+  left: 0;
+  top: 2.1146rem;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .chart-9-rRh .auto-group-5tdv-BPR .indicator-1-jLP .indicator-4dZ {
+  width: 4.7456rem;
+  height: 2.6226rem;
+  position: absolute;
+  left: 7.2844rem;
+  top: 6.4899rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .chart-9-rRh .auto-group-5tdv-BPR .indicator-1-jLP .hover-stat-b7h {
+  box-sizing: border-box;
+  padding: 1.2rem 2rem 1.2rem 1.881rem;
+  width: 8.2809rem;
+  height: 6.8rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1b39;
+  border-radius: 1.3rem;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .chart-9-rRh .auto-group-5tdv-BPR .indicator-1-jLP .hover-stat-b7h .name-tsV {
+  margin-bottom: 0.2rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.125;
+  color: #e5e5ef;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .frame-69-Us5 .chart-9-rRh .auto-group-5tdv-BPR .indicator-1-jLP .hover-stat-b7h .amount-RcX {
+  margin-left: 0.1rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.3333333333;
+  color: #ffffff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nigerian-energy-eom .frame-38-gh9 .auto-group-aw71-uXh {
+  width: 100%;
+  height: 59.4rem;
+  flex-shrink: 0;
+}

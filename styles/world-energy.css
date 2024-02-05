@@ -1,0 +1,1789 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+  text-decoration: none;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.world-energy-mAs {
+  box-sizing: border-box;
+  padding-right: 1rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+.world-energy-mAs .component-1-4Qs {
+  margin-right: 4rem;
+  box-sizing: border-box;
+  padding: 5rem 2.9rem 229.1rem 2.9rem;
+  width: 24rem;
+  height: 297.6rem;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #080808;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-33-YL3 {
+  margin-bottom: 4rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-33-YL3 .image-4-HYX {
+  margin-right: 7rem;
+  width: 8rem;
+  height: 4.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-33-YL3 .list-1zK {
+  width: 3.2rem;
+  height: 3.2rem;
+  cursor: pointer;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s {
+  margin: 0 1.65rem;
+  width: calc(100% - 3.3rem);
+  row-gap: 4rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .pages-smd {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.3025;
+  letter-spacing: -0.012rem;
+  color: #ffffff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .auto-group-f8rw-o9V {
+  width: 100%;
+  height: 20rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .auto-group-f8rw-o9V .component-2-LfD {
+  width: 14.9rem;
+  height: 19.1rem;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .auto-group-f8rw-o9V .component-2-LfD .frame-7-sf9 {
+  margin: 0rem 3.3rem 2rem 0rem;
+  width: calc(100% - 3.3rem);
+  display: flex;
+  align-items: flex-end;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .auto-group-f8rw-o9V .component-2-LfD .frame-7-sf9 .chart-2-1FZ {
+  margin-right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .auto-group-f8rw-o9V .component-2-LfD .frame-7-sf9 .industry-data-jST {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  letter-spacing: -0.014rem;
+  color: #f9f5ff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .auto-group-f8rw-o9V .component-2-LfD .auto-group-aeqh-r1H {
+  box-sizing: border-box;
+  padding: 2rem 0rem 5.1rem 0rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .auto-group-f8rw-o9V .component-2-LfD .auto-group-aeqh-r1H .frame-3-NEX {
+  margin: 0rem 1.4rem 4rem 0rem;
+  box-sizing: border-box;
+  padding: 0.063rem 0rem 0rem 0.188rem;
+  width: calc(100% - 1.4rem);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .auto-group-f8rw-o9V .component-2-LfD .auto-group-aeqh-r1H .frame-3-NEX .plugcharging-swy {
+  margin: 0rem 1.188rem 0.063rem 0rem;
+  width: 1.625rem;
+  height: 1.875rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .auto-group-f8rw-o9V .component-2-LfD .auto-group-aeqh-r1H .frame-3-NEX .generation-data-1HV {
+  margin-top: 0.0375rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  letter-spacing: -0.014rem;
+  color: #f9f5ff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .auto-group-f8rw-o9V .component-2-LfD .auto-group-aeqh-r1H .frame-4-WV9 {
+  margin-right: 0.2rem;
+  box-sizing: border-box;
+  padding: 0.1rem 0rem 0rem 0.062rem;
+  width: calc(100% - 0.2rem);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .auto-group-f8rw-o9V .component-2-LfD .auto-group-aeqh-r1H .frame-4-WV9 .broadcast-qGX {
+  margin: 0rem 1.062rem 0.1rem 0rem;
+  width: 1.8755rem;
+  height: 1.3521rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .auto-group-f8rw-o9V .component-2-LfD .auto-group-aeqh-r1H .frame-4-WV9 .transmission-data-ZCX {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  letter-spacing: -0.014rem;
+  color: #f9f5ff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .auto-group-f8rw-o9V .frame-5-g2F {
+  box-sizing: border-box;
+  padding-top: 0.1rem;
+  width: 13.8rem;
+  height: 2rem;
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 18rem;
+  display: flex;
+  align-items: center;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .auto-group-f8rw-o9V .frame-5-g2F .usb-zYj {
+  margin: 0rem 1rem 0.1rem 0rem;
+  width: 2.0001rem;
+  height: 1.5rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .auto-group-f8rw-o9V .frame-5-g2F .distribution-data-vSP {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  letter-spacing: -0.014rem;
+  color: #f9f5ff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .frame-6-42o {
+  margin-right: 2.2rem;
+  box-sizing: border-box;
+  padding: 0.1rem 0rem 0rem 0.219rem;
+  width: calc(100% - 2.2rem);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .frame-6-42o .circuitry-VP1 {
+  margin: 0rem 1.219rem 0.1rem 0rem;
+  width: 1.5625rem;
+  height: 1.5625rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .frame-6-42o .customer-data-DZu {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  letter-spacing: -0.014rem;
+  color: #f9f5ff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .component-3-jo9 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .component-3-jo9 .frame-7-HZm {
+  margin: 0rem 5.5rem 2rem 0rem;
+  width: calc(100% - 5.5rem);
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .component-3-jo9 .frame-7-HZm .chart-2-RAB {
+  margin-right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .component-3-jo9 .frame-7-HZm .industry-data-A7m {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  letter-spacing: -0.014rem;
+  color: #f9f5ff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .component-3-jo9 .auto-group-ylvp-VA3 {
+  box-sizing: border-box;
+  padding: 2rem 0;
+  width: 100%;
+  height: 15.1rem;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .component-3-jo9 .auto-group-ylvp-VA3 .frame-8-dn3 {
+  box-sizing: border-box;
+  padding-right: 0.1rem;
+  width: 12.1rem;
+  height: 2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 1.2rem;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .component-3-jo9 .auto-group-ylvp-VA3 .frame-8-dn3 .bookbookmark-ahH {
+  margin-right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  border-radius: 1.2rem;
+  flex-shrink: 0;
+}
+.world-energy-mAs .component-1-4Qs .frame-4-x8s .component-3-jo9 .auto-group-ylvp-VA3 .frame-8-dn3 .energy-report-K95 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.3025;
+  letter-spacing: -0.014rem;
+  color: #f9f5ff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ {
+  margin-bottom: 3.9rem;
+  width: 115rem;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 {
+  box-sizing: border-box;
+  padding-bottom: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .energy-performance-tracker-fs9 {
+  margin: 0rem 0rem 3rem 3rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.3025;
+  letter-spacing: -0.032rem;
+  text-transform: uppercase;
+  color: #667085;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-67-mvB {
+  margin-bottom: 5rem;
+  box-sizing: border-box;
+  padding: 3.2rem 5rem 0rem 5rem;
+  width: 112rem;
+  height: 18rem;
+  overflow: hidden;
+  position: relative;
+  border: solid 0.1rem #eaecf0;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.5500000119) -0%, rgba(0, 0, 0, 0) 100%);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/frame-67-bg-P2K.png');
+  border-radius: 2.4rem;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-67-mvB .world-energy-supply-by-continent-yearly-VLP {
+  max-width: 50rem;
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #ffffff;
+  font-family: DM Sans, 'Source Sans Pro';
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-39-6b5 {
+  margin: 0rem 5rem 5rem 2rem;
+  width: calc(100% - 7rem);
+  height: 45rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-39-6b5 .frame-35-2Dq {
+  margin-right: 2rem;
+  box-sizing: border-box;
+  padding: 5.8rem 2.9rem 0rem 3rem;
+  width: 55rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 2.4rem;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-39-6b5 .frame-35-2Dq .frame-32-9ZM {
+  box-sizing: border-box;
+  padding-bottom: 7rem;
+  width: 100%;
+  height: 40.9rem;
+  row-gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-39-6b5 .frame-35-2Dq .frame-32-9ZM .data-statistics-5xo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.032rem;
+  color: #93aafd;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-39-6b5 .frame-35-2Dq .frame-32-9ZM .average-range-odu {
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-39-6b5 .frame-35-2Dq .frame-32-9ZM .energy-supply-across-continents-varies-widely-with-each-region-relying-on-a-mix-of-fossil-fuels-and-renewables-the-shift-towards-cleaner-energy-sources-is-underway-globally-but-the-pace-differs-due-to-factors-like-resource-availability-and-policy-differences-geopolitical-dynamics-economic-conditions-and-environmental-concerns-shape-each-continents-unique-energy-landscape-each-continent-has-its-unique-energy-profile-with-varying-degrees-of-reliance-on-fossil-fuels-like-coal-oil-and-natural-gas-as-well-as-renewable-sources-such-as-wind-solar-hydroelectric-and-geothermal-power-wk7 {
+  max-width: 49.1rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3999999762;
+  letter-spacing: -0.032rem;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-39-6b5 .chart-6-C3m {
+  box-sizing: border-box;
+  padding: 3rem 7.2rem 3.8rem 6.3rem;
+  width: 51rem;
+  height: 100%;
+  box-shadow: 0 0.2rem 0.6rem rgba(13, 10, 44, 0.0799999982);
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-39-6b5 .chart-6-C3m .pie-sections-uD5 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-radius: 1rem;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-39-6b5 .chart-6-C3m .pie-sections-uD5 .section-1-EWF {
+  box-sizing: border-box;
+  padding: 5.3178rem 9.3262rem;
+  width: 35rem;
+  height: 35rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2727272727;
+  color: #ffffff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/section-pxj.png');
+  border-radius: 1rem;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-39-6b5 .chart-6-C3m .pie-sections-uD5 .secton-2-fbZ {
+  box-sizing: border-box;
+  padding: 5.806rem 6.17rem 5.806rem 24.13rem;
+  width: 35rem;
+  height: 35rem;
+  position: absolute;
+  left: 2.4rem;
+  top: 2.4886rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2727272727;
+  color: #ffffff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/section-av7.png');
+  border-radius: 1rem;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-39-6b5 .chart-6-C3m .pie-sections-uD5 .section-3-hYF {
+  box-sizing: border-box;
+  padding: 25.832rem 5.138rem 6.368rem 25.162rem;
+  width: 35rem;
+  height: 35rem;
+  position: absolute;
+  left: 2.5rem;
+  top: 3.2rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2727272727;
+  color: #ffffff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/section.png');
+  border-radius: 1rem;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-39-6b5 .chart-6-C3m .pie-sections-uD5 .section-4-9f9 {
+  box-sizing: border-box;
+  padding: 12.97rem 3.026rem 10.148rem 3.026rem;
+  width: 35rem;
+  height: 35rem;
+  position: absolute;
+  left: 1.85rem;
+  top: 3.2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/section-tif.png');
+  border-radius: 1rem;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-39-6b5 .chart-6-C3m .pie-sections-uD5 .section-4-9f9 .chart-info-eM1 {
+  margin: 0rem 8.674rem 2.102rem 8.374rem;
+  width: calc(100% - 17.0477rem);
+  height: 6.98rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-39-6b5 .chart-6-C3m .pie-sections-uD5 .section-4-9f9 .chart-info-eM1 .amount-info-YxB {
+  width: 11.9rem;
+  height: 3.2rem;
+  position: absolute;
+  left: 0;
+  top: 3.78rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.7777777778;
+  color: #9290a4;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-39-6b5 .chart-6-C3m .pie-sections-uD5 .section-4-9f9 .chart-info-eM1 .amount-info-YxB .amount-info-YxB-sub-0 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.7777777778;
+  color: #9290a4;
+  font-family: DM Sans, 'Source Sans Pro';
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-39-6b5 .chart-6-C3m .pie-sections-uD5 .section-4-9f9 .chart-info-eM1 .amount-info-YxB .amount-info-YxB-sub-1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.7777777778;
+  color: #9290a4;
+  font-family: DM Sans, 'Source Sans Pro';
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-39-6b5 .chart-6-C3m .pie-sections-uD5 .section-4-9f9 .chart-info-eM1 .amount-YMq {
+  width: 8.4rem;
+  height: 5.2rem;
+  position: absolute;
+  left: 1.8rem;
+  top: 0;
+  text-align: center;
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 1.1818181818;
+  color: #1e1b39;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-39-6b5 .chart-6-C3m .pie-sections-uD5 .section-4-9f9 .percentage-2H1 {
+  margin-right: 24.2477rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2727272727;
+  color: #ffffff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 {
+  margin-right: 3rem;
+  box-sizing: border-box;
+  padding: 3rem 4rem;
+  width: calc(100% - 3rem);
+  height: 40.2rem;
+  display: flex;
+  align-items: center;
+  background-color: #eff2f7;
+  border-radius: 2.4rem;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD {
+  margin: 0.541rem 5rem 0.541rem 0rem;
+  box-sizing: border-box;
+  padding: 1.659rem 3.3rem 4.859rem 3.3rem;
+  width: 51rem;
+  height: calc(100% - 1.0813rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.2rem 0.6rem rgba(13, 10, 44, 0.0799999982);
+  background-color: #fafafd;
+  border-radius: 2.4rem;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-jgg3-EGb {
+  margin: 0rem 0.032rem 1.9rem 0rem;
+  width: calc(100% - 0.0322rem);
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-jgg3-EGb .card-info-xTV {
+  margin: 0rem 13.5rem 0.4rem 0rem;
+  box-sizing: border-box;
+  padding-top: 2.4rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2727272727;
+  color: #1e1b39;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-jgg3-EGb .drop-selector-rHy {
+  margin-top: 2rem;
+  box-sizing: border-box;
+  padding: 1rem 1.6rem;
+  display: flex;
+  align-items: center;
+  background-color: #eff2f7;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-jgg3-EGb .drop-selector-rHy .name-Br3 {
+  margin-right: 2.4rem;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-jgg3-EGb .drop-selector-rHy .chevron-sis {
+  margin-top: 0rem;
+  width: 0.9678rem;
+  height: 0.5457rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .divider-b95 {
+  margin: 0rem 0.045rem 3.7rem 0rem;
+  width: calc(100% - 0.045rem);
+  height: 0.1rem;
+  background-color: #e5e5ef;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .pie-fud {
+  margin: 0rem 5.6rem 0.3rem 0rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/section-2-W6w.png');
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .pie-fud .section-1-QsD {
+  width: 15rem;
+  height: 15rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X {
+  height: 14.4rem;
+  display: flex;
+  column-gap: 0.9rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318199-rjD {
+  margin: 0.4rem 0rem 0.3rem 0rem;
+  width: 0.8rem;
+  height: calc(100% - 0.7rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318199-rjD .identifier-Mfy {
+  margin-bottom: 2.4rem;
+  width: 100%;
+  height: 0.8rem;
+  background-color: #34a6f0;
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318199-rjD .identifier-6Nf {
+  margin-bottom: 2.4rem;
+  width: 100%;
+  height: 0.8rem;
+  background-color: #267fb9;
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318199-rjD .identifier-dtP {
+  margin-bottom: 2.4rem;
+  width: 100%;
+  height: 0.8rem;
+  background-color: #185b86;
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318199-rjD .identifier-PMm {
+  margin-bottom: 2.5rem;
+  width: 100%;
+  height: 0.8rem;
+  background-color: #9ac9fa;
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318199-rjD .identifier-8q9 {
+  width: 100%;
+  height: 0.8rem;
+  background-color: #e3eefe;
+  border-radius: 4rem;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318198-5kP {
+  height: 100%;
+  row-gap: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318198-5kP .name-pT5 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.1428571429;
+  color: #1e1b39;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318198-5kP .name-9kF {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.1428571429;
+  color: #1e1b39;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318198-5kP .name-Vp7 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.1428571429;
+  color: #1e1b39;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318198-5kP .name-3qd {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.1428571429;
+  color: #1e1b39;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318198-5kP .name-bs9 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.1428571429;
+  color: #1e1b39;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318197-wRD {
+  height: 100%;
+  row-gap: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318197-wRD .percentage-5GX {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318197-wRD .percentage-cnF {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318197-wRD .percentage-ktT {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318197-wRD .percentage-Jf5 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318197-wRD .percentage-rgb {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318196-13h {
+  height: 100%;
+  row-gap: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318196-13h .growht-Lrf {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #03b500;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318196-13h .growht-Hmu {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #dd7578;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318196-13h .growht-3FH {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #03b500;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318196-13h .growht-BsH {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #dd7578;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .chart-7-ksD .auto-group-sxom-uvT .identifiers-82X .frame-427318196-13h .growht-w5m {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #03b500;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .frame-35-1bR {
+  box-sizing: border-box;
+  padding: 2rem 0;
+  width: 48rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 2.4rem;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .frame-35-1bR .frame-32-9hd {
+  width: 100%;
+  height: 28.1rem;
+  display: flex;
+  flex-direction: column;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .frame-35-1bR .frame-32-9hd .data-statistics-hDM {
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.032rem;
+  color: #93aafd;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .frame-35-1bR .frame-32-9hd .percentage-indices-cLK {
+  margin-bottom: 2rem;
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .frame-35-1bR .frame-32-9hd .investment-in-clean-energy-technologies-is-significantly-outpacing-spending-on-fossil-fuels-as-affordability-and-security-concerns-triggered-by-the-global-energy-crisis-strengthen-the-momentum-behind-more-sustainable-options-according-to-the-iea-world-energy-investment-2023-report-vbu {
+  margin-bottom: 2.3rem;
+  max-width: 48rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3999999762;
+  letter-spacing: -0.032rem;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .frame-35-1bR .frame-32-9hd .frame-57-uyd {
+  margin: 0rem 39.9rem 0rem 0.3rem;
+  width: calc(100% - 40.2rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .frame-35-1bR .frame-32-9hd .frame-57-uyd .arrowcircleleft-3a3 {
+  margin-right: 2.6rem;
+  width: 2.6rem;
+  height: 2.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-b3b1-LK5 .frame-68-r19 .frame-35-1bR .frame-32-9hd .frame-57-uyd .arrowcircleright-aK5 {
+  width: 2.6rem;
+  height: 2.6rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb {
+  margin-bottom: 6rem;
+  width: 100%;
+  height: 41rem;
+  position: relative;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .container-ztb {
+  width: 112rem;
+  height: 41rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #ffffff;
+  border-radius: 2rem;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .vector-3-vnF {
+  width: 101.5rem;
+  height: 26.4rem;
+  position: absolute;
+  left: 6.0999rem;
+  top: 9.4rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .frame-23-fE3 {
+  width: 2.1rem;
+  height: 25.3rem;
+  position: absolute;
+  left: 3.1012rem;
+  top: 10.5rem;
+  row-gap: 3.5rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .frame-23-fE3 .k-Agb {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.255;
+  letter-spacing: -0.06rem;
+  color: #9290a4;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .frame-23-fE3 .k-Vis {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.255;
+  letter-spacing: -0.06rem;
+  color: #9290a4;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .frame-23-fE3 .k-oUf {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.255;
+  letter-spacing: -0.06rem;
+  color: #9290a4;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .frame-23-fE3 .k-92j {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.255;
+  letter-spacing: -0.06rem;
+  color: #9290a4;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .frame-23-fE3 .k-tFD {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.255;
+  letter-spacing: -0.06rem;
+  color: #9290a4;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .frame-23-fE3 .k-Rkw {
+  margin-left: 0.1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.255;
+  letter-spacing: -0.06rem;
+  color: #9290a4;
+  font-family: Mulish, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .group-30-k2X {
+  width: 93.5045rem;
+  height: 1.6rem;
+  position: absolute;
+  left: 10.0183rem;
+  top: 36.9966rem;
+  display: flex;
+  align-items: center;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .group-30-k2X .item-2017-edh {
+  margin-right: 15.0109rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .group-30-k2X .item-2018-NJo {
+  margin-right: 12.4336rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .group-30-k2X .item-2019-gqH {
+  margin-right: 12.2337rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .group-30-k2X .item-2020-R2B {
+  margin-right: 14.8109rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .group-30-k2X .item-2021-joZ {
+  margin-right: 14.8609rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .group-30-k2X .item-2022-UFM {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  color: #615e82;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .chart-lines-Cx3 {
+  box-sizing: border-box;
+  padding: 5.1rem 0rem 5.4rem 0rem;
+  width: 101.5543rem;
+  height: 19.9rem;
+  position: absolute;
+  left: 6.0457rem;
+  top: 11.2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-top: dashed 0.1rem #e5e5ef;
+  border-bottom: dashed 0.1rem #e5e5ef;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .chart-lines-Cx3 .line-5-h87 {
+  margin-bottom: 4.4rem;
+  width: 100%;
+  height: 0.1rem;
+  background-color: #e5e5ef;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .chart-lines-Cx3 .line-2-e3M {
+  margin-bottom: 4.7rem;
+  width: 100%;
+  height: 0.1rem;
+  background-color: #e5e5ef;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .chart-lines-Cx3 .line-3-PFq {
+  margin-bottom: 5.3rem;
+  width: 100%;
+  height: 0.1rem;
+  background-color: #e5e5ef;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .lines-6R9 {
+  width: 99.5048rem;
+  height: 9.4548rem;
+  position: absolute;
+  left: 8.0951rem;
+  top: 18.6rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .lines-RiK {
+  width: 99.5048rem;
+  height: 9.4548rem;
+  position: absolute;
+  left: 8.0951rem;
+  top: 11.6rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .active-line-elements-N7m {
+  width: 1.9361rem;
+  height: 24.7rem;
+  position: absolute;
+  left: 25.925rem;
+  top: 11.1rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .card-info-VCP {
+  width: 31.5897rem;
+  height: 5rem;
+  position: absolute;
+  left: 4.9886rem;
+  top: 2.8rem;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .card-info-VCP .type-card-cno {
+  margin-bottom: 0.2rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.1111111111;
+  color: #9290a4;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.world-energy-mAs .frame-38-CyZ .group-24-Gxb .card-info-VCP .card-title-YgT {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #031929;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u {
+  box-sizing: border-box;
+  padding: 0 2rem;
+  width: 112rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ {
+  margin-bottom: 10.7rem;
+  width: 100%;
+  height: 49rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .frame-35-Mdu {
+  margin-right: 5rem;
+  box-sizing: border-box;
+  padding: 3rem 4.1rem 3.3rem 3rem;
+  width: 52rem;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 2.4rem;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .frame-35-Mdu .frame-32-gRH {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .frame-35-Mdu .frame-32-gRH .data-statistics-S9Z {
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.032rem;
+  color: #93aafd;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .frame-35-Mdu .frame-32-gRH .load-profile-kR9 {
+  margin-bottom: 2rem;
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: 1;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .frame-35-Mdu .frame-32-gRH .investment-in-clean-energy-technologies-is-significantly-outpacing-spending-on-fossil-fuels-as-affordability-and-security-concerns-triggered-by-the-global-energy-crisis-strengthen-the-momentum-behind-more-sustainable-options-according-to-the-iea-world-energy-investment-2023-report-annual-clean-energy-investment-is-expected-to-rise-by-24-between-2021-and-2023-driven-by-renewables-and-electric-vehicles-compared-with-a-15-rise-in-fossil-fuel-investment-over-the-same-period-but-more-than-90-of-this-increase-comes-from-advanced-economies-and-china-presenting-a-serious-risk-of-new-dividing-lines-in-global-energy-if-clean-energy-transitions-dont-pick-up-elsewhere-V7q {
+  margin-bottom: 1.7rem;
+  max-width: 44.9rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3999999762;
+  letter-spacing: -0.032rem;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .frame-35-Mdu .frame-32-gRH .frame-57-7YX {
+  margin: 0rem 36.8rem 0rem 0.3rem;
+  width: calc(100% - 37.1rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .frame-35-Mdu .frame-32-gRH .frame-57-7YX .arrowcircleleft-qzK {
+  margin-right: 2.6rem;
+  width: 2.6rem;
+  height: 2.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .frame-35-Mdu .frame-32-gRH .frame-57-7YX .arrowcircleright-PF9 {
+  width: 2.6rem;
+  height: 2.6rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .chart-9-hWj {
+  margin: 1.029rem 0rem 1.029rem 0rem;
+  box-sizing: border-box;
+  padding: 3.2rem 3.2rem 4.772rem 3.2rem;
+  width: 51rem;
+  height: calc(100% - 2.0576rem);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .chart-9-hWj .auto-group-wrcp-b6K {
+  margin-bottom: 2.2rem;
+  width: 100%;
+  height: 5.4rem;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .chart-9-hWj .auto-group-wrcp-b6K .card-info-8M9 {
+  margin-right: 20.7rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .chart-9-hWj .auto-group-wrcp-b6K .card-info-8M9 .type-card-sZd {
+  margin-bottom: 0.4rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.1111111111;
+  color: #9290a4;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .chart-9-hWj .auto-group-wrcp-b6K .card-info-8M9 .card-title-D7h {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2727272727;
+  color: #1e1b39;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .chart-9-hWj .auto-group-wrcp-b6K .amount-info-9n3 {
+  height: 100%;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .chart-9-hWj .auto-group-wrcp-b6K .amount-info-9n3 .info-umD {
+  text-align: right;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.1111111111;
+  color: #9290a4;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .chart-9-hWj .auto-group-wrcp-b6K .amount-info-9n3 .amount-eio {
+  text-align: right;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.4166666667;
+  color: #1e1b39;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .chart-9-hWj .divider-b8F {
+  margin-bottom: 1.5rem;
+  width: 100%;
+  height: 0.1rem;
+  background-color: #e5e5ef;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .chart-9-hWj .auto-group-f7l7-jkF {
+  margin-right: 1.7039rem;
+  width: 42.8961rem;
+  height: 29.7702rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .chart-9-hWj .auto-group-f7l7-jkF .pie-5JK {
+  width: 27.659rem;
+  height: 27.659rem;
+  position: absolute;
+  left: 8.4705rem;
+  top: 2.1112rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/section-2.png');
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .chart-9-hWj .auto-group-f7l7-jkF .pie-5JK .section-1-BcF {
+  width: 27.659rem;
+  height: 27.659rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .chart-9-hWj .auto-group-f7l7-jkF .indicator-2-tWf {
+  width: 12.2474rem;
+  height: 11.2271rem;
+  position: absolute;
+  left: 30.6487rem;
+  top: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .chart-9-hWj .auto-group-f7l7-jkF .indicator-2-tWf .indicator-2-Doq {
+  width: 4.7372rem;
+  height: 4.7372rem;
+  position: absolute;
+  left: 0;
+  top: 6.4898rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .chart-9-hWj .auto-group-f7l7-jkF .indicator-2-tWf .hover-stat-xmR {
+  box-sizing: border-box;
+  padding: 1.2rem 1.5rem 1.2rem 1.381rem;
+  width: 8.2809rem;
+  height: 6.8rem;
+  position: absolute;
+  left: 3.9665rem;
+  top: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1b39;
+  border-radius: 1.3rem;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .chart-9-hWj .auto-group-f7l7-jkF .indicator-2-tWf .hover-stat-xmR .name-rM1 {
+  margin: 0rem 0rem 0.2rem 0.1rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.125;
+  color: #e5e5ef;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .chart-9-hWj .auto-group-f7l7-jkF .indicator-2-tWf .hover-stat-xmR .amount-mTy {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.3333333333;
+  color: #ffffff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .chart-9-hWj .auto-group-f7l7-jkF .indicator-1-UdH {
+  width: 12.0301rem;
+  height: 9.1125rem;
+  position: absolute;
+  left: 0;
+  top: 2.1146rem;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .chart-9-hWj .auto-group-f7l7-jkF .indicator-1-UdH .indicator-pSF {
+  width: 4.7456rem;
+  height: 2.6226rem;
+  position: absolute;
+  left: 7.2844rem;
+  top: 6.4899rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .chart-9-hWj .auto-group-f7l7-jkF .indicator-1-UdH .hover-stat-9Dd {
+  box-sizing: border-box;
+  padding: 1.2rem 2rem 1.2rem 1.881rem;
+  width: 8.2809rem;
+  height: 6.8rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #1e1b39;
+  border-radius: 1.3rem;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .chart-9-hWj .auto-group-f7l7-jkF .indicator-1-UdH .hover-stat-9Dd .name-45h {
+  margin-bottom: 0.2rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.125;
+  color: #e5e5ef;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-69-QyZ .chart-9-hWj .auto-group-f7l7-jkF .indicator-1-UdH .hover-stat-9Dd .amount-PNs {
+  margin-left: 0.1rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.3333333333;
+  color: #ffffff;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM {
+  margin: 0rem 3.3rem 0rem 3rem;
+  width: calc(100% - 6.3rem);
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .auto-group-ynhq-nfu {
+  margin-bottom: 4.1rem;
+  width: 100%;
+  height: 5.2rem;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .auto-group-ynhq-nfu .frame-427318200-Kvj {
+  margin-right: 33.9rem;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .auto-group-ynhq-nfu .frame-427318200-Kvj .related-reports-shM {
+  margin-right: 3rem;
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: 1.2000000212;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .auto-group-ynhq-nfu .frame-427318200-Kvj .input-QhH {
+  box-sizing: border-box;
+  padding: 1.4rem;
+  width: 32rem;
+  height: 100%;
+  border: solid 0.1rem #eaecf0;
+  box-shadow: 0 0.1rem 0.2rem rgba(16, 24, 40, 0.0500000007);
+  background-color: #ffffff;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .auto-group-ynhq-nfu .frame-427318200-Kvj .input-QhH .content-YoV {
+  box-sizing: border-box;
+  padding-left: 0.25rem;
+  width: 14.5rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .auto-group-ynhq-nfu .frame-427318200-Kvj .input-QhH .content-YoV .search-hAb {
+  margin-right: 1.05rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .auto-group-ynhq-nfu .frame-427318200-Kvj .input-QhH .content-YoV .text-dpw {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #667084;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .auto-group-ynhq-nfu .frame-57-7k7 {
+  margin-bottom: 1.4rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .auto-group-ynhq-nfu .frame-57-7k7 .arrowcircleleft-ezw {
+  margin-right: 2.6rem;
+  width: 2.6rem;
+  height: 2.6rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .auto-group-ynhq-nfu .frame-57-7k7 .arrowcircleright-nrF {
+  width: 2.6rem;
+  height: 2.6rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .frame-64-vhZ {
+  height: 44.4rem;
+  display: flex;
+  column-gap: 2.5rem;
+  align-items: center;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .frame-64-vhZ .frame-61-54f {
+  box-sizing: border-box;
+  padding: 2rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #eaecf0;
+  background-color: #ffffff;
+  border-radius: 1.6rem;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .frame-64-vhZ .frame-61-54f .image-47-pH9 {
+  margin-bottom: 3rem;
+  width: 28rem;
+  height: 25rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1.6rem;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .frame-64-vhZ .frame-61-54f .frame-65-kAo {
+  margin-right: 3.3rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .frame-64-vhZ .frame-61-54f .frame-65-kAo .empowering-state-governments--h63 {
+  margin-bottom: 0.8rem;
+  max-width: 19.9rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.048rem;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .frame-64-vhZ .frame-61-54f .frame-65-kAo .annual-clean-energy-investment-is-expected-to-rise-by-24-PzT {
+  margin-bottom: 0.7rem;
+  max-width: 24.7rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3999999762;
+  letter-spacing: -0.032rem;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .frame-64-vhZ .frame-61-54f .frame-65-kAo .read-more--J5q {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.032rem;
+  color: #93aafd;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .frame-64-vhZ .frame-62-bKq {
+  box-sizing: border-box;
+  padding: 2rem;
+  width: 32rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #eaecf0;
+  background-color: #ffffff;
+  border-radius: 1.6rem;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .frame-64-vhZ .frame-62-bKq .frame-60-XzB {
+  margin-bottom: 3rem;
+  width: 100%;
+  height: 25rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #ffffff;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/frame-60-bg-6WP.png');
+  border-radius: 1.2rem 1.2rem 0 0;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .frame-64-vhZ .frame-62-bKq .frame-65-Etb {
+  margin-right: 3.3rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .frame-64-vhZ .frame-62-bKq .frame-65-Etb .inaugurating-ai-into-the-power-sector-BYw {
+  margin-bottom: 0.8rem;
+  max-width: 21rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.048rem;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .frame-64-vhZ .frame-62-bKq .frame-65-Etb .annual-clean-energy-investment-is-expected-to-rise-by-24-HM5 {
+  margin-bottom: 0.7rem;
+  max-width: 24.7rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3999999762;
+  letter-spacing: -0.032rem;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .frame-64-vhZ .frame-62-bKq .frame-65-Etb .read-more--NNX {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.032rem;
+  color: #93aafd;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .frame-64-vhZ .frame-63-Gio {
+  box-sizing: border-box;
+  padding: 2rem;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem #eaecf0;
+  background-color: #ffffff;
+  border-radius: 1.6rem;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .frame-64-vhZ .frame-63-Gio .image-47-pVR {
+  margin-bottom: 3rem;
+  width: 28rem;
+  height: 25rem;
+  object-fit: cover;
+  vertical-align: top;
+  border-radius: 1.6rem;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .frame-64-vhZ .frame-63-Gio .frame-65-MVM {
+  margin-right: 3.3rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .frame-64-vhZ .frame-63-Gio .frame-65-MVM .energy-power-analysis-JvP {
+  margin-bottom: 0.8rem;
+  max-width: 17.1rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.048rem;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .frame-64-vhZ .frame-63-Gio .frame-65-MVM .annual-clean-energy-investment-is-expected-to-rise-by-24-REK {
+  margin-bottom: 0.7rem;
+  max-width: 24.7rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3999999762;
+  letter-spacing: -0.032rem;
+  color: #252733;
+  font-family: DM Sans, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.world-energy-mAs .frame-38-CyZ .auto-group-ljrh-V5u .frame-58-rXM .frame-64-vhZ .frame-63-Gio .frame-65-MVM .read-more--iz7 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.032rem;
+  color: #93aafd;
+  font-family: DM Sans, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
