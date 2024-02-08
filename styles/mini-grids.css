@@ -15,7 +15,8 @@ input {
 }
 body {
   width: 144rem;
-}.mini-grids-UhH {
+}
+.mini-grids-UhH {
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -327,7 +328,7 @@ body {
 }
 .mini-grids-UhH .frame-38-grX .frame-427318202-BYP {
   margin: 0rem 10rem 0.1rem 3rem;
-  width: calc(100% - 7rem);
+  width: calc(100% - 6rem);
   height: 8.9rem;
   display: flex;
   align-items: flex-end;
