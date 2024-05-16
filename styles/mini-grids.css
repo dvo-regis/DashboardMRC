@@ -21,7 +21,7 @@ body {
   position: relative;
   display: flex;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #f2f6ff;
 }
 .mini-grids-UhH .component-1-PpF {
   box-sizing: border-box;
@@ -323,7 +323,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  margin-left: 28rem;
+  margin-left: 25rem;
 }
 .mini-grids-UhH .frame-38-grX .frame-427318202-BYP {
   margin: 0rem 10rem 0.1rem 3rem;
@@ -393,7 +393,7 @@ body {
 }
 .mini-grids-UhH .frame-38-grX .mini-grid-m9D .screenshot-2023-12-13-172743-1-UZR {
   margin-right: 2.4rem;
-  width: 65.8rem;
+  width: 80.0rem;
   height: 53.9rem;
   object-fit: cover;
   vertical-align: top;

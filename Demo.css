@@ -32174,15 +32174,3 @@ div[data-collapse]+.kanban-item,
   }
 
 
-  #highmaps {
-    height: 500px;
-    min-width: 410px;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-
-  .loading {
-    margin-top: 10em;
-    text-align: center;
-    color: gray;
-  }

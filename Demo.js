@@ -512,16 +512,18 @@ var echartsStackedBarSeriesChartInit = function echartsStackedBarSeriesChartInit
           series: [{
             name: 'HYDRO',
             type: 'bar',
+            stack: "stack",
             data: [118203, 213489, 291034, 141970, 311744, 181203, 231489, 291034,],
             itemStyle: {
-              barBorderRadius: [10, 10, 10, 10]
+              barBorderRadius: [0, 0, 10, 10]
             }
           }, {
             name: 'THERMAL',
             type: 'bar',
+            stack: "stack",
             data: [191325, 231438, 311000, 211594, 341141, 182103, 234189, 291034,],
             itemStyle: {
-              barBorderRadius: [10, 10, 10, 10]
+              barBorderRadius: [10, 10, 0, 0]
             }
           }],
           grid: {
@@ -751,7 +753,7 @@ var echartsTLFChartInit = function echartsTLFChartInit() {
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
-          color: ["#3448f0"],
+          color: ["#3448f0", "#ff718b"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -806,17 +808,17 @@ var echartsTLFChartInit = function echartsTLFChartInit() {
             },
             data: ['2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023']
           },
-          series: {
-            name: 'Available',
-            type: 'line',
-            stack: 'Total', 
-            areaStyle: {},
-            emphasis: {
-                focus: 'series'
-            },
-            data: [14, 14,14, 14, 14, 13, 14, 14],
+          series: [{
+            name: 'TOTAL',
+            type: 'line', 
+            data: [61823, 41389, 49034, 41970, 31174, 81203, 31489, 91034],
             smooth: true,
-          }, 
+          }, {
+            name: 'PARTIAL',
+            type: 'line', 
+            data: [19125, 23148, 31100, 21194, 31141, 18103, 23489, 29134],
+            smooth: true,
+          }], 
           grid: {
             right: 45,
             left: '8%',

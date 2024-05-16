@@ -11,6 +11,35 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A500"/>
   <link rel="stylesheet" href="./styles/mini-grids.css"/>
   <link rel="stylesheet" href="./Demo.css"/>
+  <meta property="og:description" content="Use events and feature states to create a per feature hover effect." />
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='https://unpkg.com/maplibre-gl@4.0.0/dist/maplibre-gl.css' />
+  <script src='https://unpkg.com/maplibre-gl@4.0.0/dist/maplibre-gl.js'></script>
+  <style>
+    .popup {
+        max-width: 300px;
+        border-radius: 10px;
+        border-width: 5px;
+        border-color: #000000;
+    }
+
+    .popup-title {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 8px;
+        color: #000000;  
+    }
+
+    .popup-description {
+        font-size: 12px;
+        color: #060056;  
+    }
+</style>
+  <style>
+      body { margin: 0; padding: 0; }
+        #map { height: 530px; width: 1110px; border-radius: 20px; border-width:10px; border-color: #000000;}
+  </style>
 
 </head>
 <body>
@@ -68,139 +97,16 @@
         <p class="energy-performance-tracker-FYF">Energy Performance Tracker</p>
         <p class="mini-grids-ZYw">Mini-Grids</p>
       </div>
-      <div class="frame-427318205-tr7">Download Data</div>
     </div>
-    <div class="mini-grid-m9D">
-      <img class="screenshot-2023-12-13-172743-1-UZR" src="./assets/screenshot-2023-12-13-172743-1.png"/>
-      <div class="table-CEX">
-        <div class="content-LrX">
-          <div class="column-VUX">
-            <div class="table-header-cell-SPm">
-              <div class="table-header-mwq">
-                <p class="text-7F1">Discos</p>
-                <img class="arrow-down-SHH" src="./assets/arrow-down-DJB.png"/>
-              </div>
+    <div class="mini-grid-m9D" >
+      <div class="card-body screenshot-2023-12-13-172743-1-UZR" style="width: 800px ;">
+        <div class="tab-content">
+            <div class="tab-pane preview-tab-pane active" role="tabpanel" aria-labelledby="tab-dom-a3d3c26a-1b6a-4879-8c05-bac988cd6b0d" id="dom-a3d3c26a-1b6a-4879-8c05-bac988cd6b0d">
+              <div id="map"> </div>
             </div>
-            <div class="auto-group-rbnj-wzj">
-              <div class="table-cell-t9H">
-                <div class="checkbox-base-zy1">
-                </div>
-                <div class="auto-group-wewv-VPy">
-                  <div class="text-and-supporting-text-2uh">Abuja Disco</div>
-                </div>
-              </div>
-              <div class="table-cell-i1q">
-                <div class="checkbox-base-1md">
-                </div>
-                <div class="auto-group-hwpd-JVq">
-                  <div class="text-and-supporting-text-Tdd">Benin Disco</div>
-                </div>
-              </div>
-              <div class="table-cell-9WT">
-                <div class="checkbox-base-TX9">
-                </div>
-                <div class="auto-group-5ngk-xTu">
-                  <div class="text-and-supporting-text-WkK">Eko Disco</div>
-                </div>
-              </div>
-              <div class="table-cell-bmm">
-                <div class="checkbox-base-7k7">
-                </div>
-                <div class="auto-group-xsw5-E43">
-                  <div class="text-and-supporting-text-z3D">Enugu Disco</div>
-                </div>
-              </div>
-              <div class="table-cell-Uj5">
-                <div class="checkbox-base-zSX">
-                </div>
-                <div class="auto-group-muzm-HwR">
-                  <div class="text-and-supporting-text-eGB">Ibadan Disco</div>
-                </div>
-              </div>
-              <div class="table-cell-Luh">
-                <div class="checkbox-base-GHZ">
-                </div>
-                <div class="auto-group-pxnw-a3M">
-                  <div class="text-and-supporting-text-vsu">Ikeja Disco</div>
-                </div>
-              </div>
-              <div class="table-cell-dXR">
-                <div class="checkbox-base-YPV">
-                </div>
-                <div class="auto-group-mdis-3r3">
-                  <div class="text-and-supporting-text-1Xy">Jos Disco</div>
-                </div>
-              </div>
-              <div class="table-cell-WDq">
-                <div class="checkbox-base-pkK">
-                </div>
-                <div class="auto-group-ngct-j6b">
-                  <div class="text-and-supporting-text-V5m">Kaduna Disco</div>
-                </div>
-              </div>
-              <div class="table-cell-asu">
-                <div class="checkbox-base-t7u">
-                </div>
-                <div class="auto-group-umth-aWX">
-                  <div class="text-and-supporting-text-YCT">Kano Disco</div>
-                </div>
-              </div>
-              <div class="table-cell-qST">
-                <div class="checkbox-base-Yrf">
-                </div>
-                <div class="auto-group-qcpd-rMZ">
-                  <div class="text-and-supporting-text-bpw">Port Harcourt</div>
-                </div>
-              </div>
-              <div class="table-cell-VvK">
-                <div class="checkbox-base-R3H">
-                </div>
-                <div class="auto-group-lgub-8Cb">
-                  <div class="text-and-supporting-text-5tX">Yola Disco</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="column-Ncj">
-            <div class="table-header-cell-Kns">Load Allocation(MW)</div>
-            <div class="auto-group-hx6b-E99">
-              <div class="table-cell-ZBR">
-                <div class="text-and-supporting-text-tDh">FCT, Nassarawa, Niger, Kogi</div>
-              </div>
-              <div class="table-cell-yW3">
-                <div class="text-and-supporting-text-76T">Lagos South</div>
-              </div>
-              <div class="table-cell-Ctb">
-                <div class="text-and-supporting-text-Xvs">Delta, Edo, Ekiti, Ondo</div>
-              </div>
-              <div class="table-cell-26w">
-                <div class="text-and-supporting-text-Yqy">Abia, Anambra, Ebonyi, Enugu</div>
-              </div>
-              <div class="table-cell-323">
-                <div class="text-and-supporting-text-A6f">Kwara, Ogun, Osun, Oyo</div>
-              </div>
-              <div class="table-cell-3AT">
-                <div class="text-and-supporting-text-xHR">Lagos North</div>
-              </div>
-              <div class="table-cell-TV5">
-                <div class="text-and-supporting-text-yiK">Bauchi, Benue, Gombe, Plateau</div>
-              </div>
-              <div class="table-cell-Uuy">
-                <div class="text-and-supporting-text-bjh">Kaduna, Kebbi, Sokoto, Zamfara</div>
-              </div>
-              <div class="table-cell-iZR">
-                <div class="text-and-supporting-text-qe3">Kano, Jigawa, Katsina</div>
-              </div>
-              <div class="table-cell-98w">
-                <div class="text-and-supporting-text-GjM">Akwa Ibom, Cross River, Rivers, Bayelsa</div>
-              </div>
-              <div class="table-cell-BrK">
-                <div class="text-and-supporting-text-Wtb">Adamawa, Bomo, Taraba, Yobe</div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
+
     </div>
     <div class="frame-40-Zby">
       <div class="chart-12-tPM">
@@ -319,6 +225,884 @@
     </div>
   </div>
 </div>
+
+<script>
+    const map = new maplibregl.Map({
+        container: 'map',
+        style:
+            'https://api.maptiler.com/maps/0a93a0bd-d162-48b0-964b-0bb8d28de41c/style.json?key=nOBwBWHrMl0UpUMsjHCF',
+        center: [8.84449, 8.17349],
+        zoom: 5
+    });
+
+    let hoveredStateId = null;
+
+    map.on('load', () => {
+        map.addSource('states', {
+            'type': 'geojson',
+            'data': 'https://api.maptiler.com/data/f3595596-b0f2-4649-8577-6c34ebeafb89/features.json?key=nOBwBWHrMl0UpUMsjHCF',
+            'promoteId': 'admin1Name'
+        });
+
+        
+        map.addLayer({
+            'id': 'state-fills',
+            'type': 'fill',
+            'source': 'states',
+            'layout': {},
+            'paint': {
+                'fill-color': '#627BC1',
+                'fill-opacity': [
+                    'case',
+                    ['boolean', ['feature-state', 'hover'], false],
+                    0.5,   
+                    0.3    
+                ]
+            }
+        });
+
+        // Add a layer for the state borders
+        map.addLayer({
+            'id': 'state-borders',
+            'type': 'line',
+            'source': 'states',
+            'layout': {},
+            'paint': {
+                'line-color': '#627BC1',
+                'line-width': 2
+            }
+        });
+
+        // Add a layer for a specific point
+        map.addSource('point', {
+            'type': 'geojson',
+            'data': {
+                'type': 'FeatureCollection',
+                'features': [
+                
+                {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [7.473, 9.277]
+                },
+                'properties': {
+                    'title': '3kW Solar minigrid in Igu community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [7.093, 	8.684]
+                },
+                'properties': {
+                    'title': '40kW Solar minigrid in Yebu community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [7.293, 	8.884]
+                },
+                'properties': {
+                    'title': '20kW Biogas minigrid in Rije community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [7.793, 	8.884]
+                },
+                'properties': {
+                    'title': '4kW Solar minigrid in Ruguwa community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [7.371, 	9.370]
+                },
+                'properties': {
+                    'title': '40kW Solar minigrid in Gnami community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [8.064, 10.587]
+                },
+                'properties': {
+                    'title': '50kW Solar Hybrid minigrid in Makami community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [7.864, 11.387]
+                },
+                'properties': {
+                    'title': '24kW Solar minigrid in Charwa/Chakun community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [7.664, 13.087]
+                },
+                'properties': {
+                    'title': '16kW Solar minigrid in Kindigi community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [7.464, 12.487]
+                },
+                'properties': {
+                    'title': '30kW Solar minigrid in Bambami community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [5.364, 12.887]
+                },
+                'properties': {
+                    'title': '10kW Solar minigrid in Dundaye community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [4.369, 13.575]
+                },
+                'properties': {
+                    'title': '80kW Solar minigrid in Kurdula community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [4.799, 12.075]
+                },
+                'properties': {
+                    'title': '60kW Solar minigrid in Torankawa community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [4.066, 12.904]
+                },
+                'properties': {
+                    'title': '60kW Solar minigrid in Torankawa community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [5.424, 9.062]
+                },
+                'properties': {
+                    'title': '64kW Solar Hybrid minigrid in Rokota community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [7.240, 9.664]
+                },
+                'properties': {
+                    'title': '40kW Solar minigrid in Goton Sarki community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [6.205, 9.352]
+                },
+                'properties': {
+                    'title': '41kW Solar minigrid in Swasun community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [6.305, 9.152]
+                },
+                'properties': {
+                    'title': '38kW Solar minigrid in Bisanti community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [4.824, 10.056]
+                },
+                'properties': {
+                    'title': '100kW Solar minigrid in Tunga Jika community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [9.616, 11.528]
+                },
+                'properties': {
+                    'title': 'Minigrid in Ahoto community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [10.693, 12.317]
+                },
+                'properties': {
+                    'title': '10kW Solar minigrid in Gololo community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [10.791, 11.829]
+                },
+                'properties': {
+                    'title': '10kW Solar minigrid in Tarmasuwa community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [10.064, 11.570] 
+                },
+                'properties': {
+                    'title': '18kW Solar minigrid in Gaza community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [9.638, 11.052]
+                },
+                'properties': {
+                    'title': '8kW Solar Hybrid minigrid in Bayan Fada community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [11.781, 10.039] 
+                },
+                'properties': {
+                    'title': '47kW Solar minigrid in Kolaku community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [11.431, 9.717] 
+                },
+                'properties': {
+                    'title': '38kW Solar minigrid in Kolwa community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [11.040, 9.802]
+                },
+                'properties': {
+                    'title': '18kW Solar minigrid in Ayaba community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [11.678, 9.465]
+                },
+                'properties': {
+                    'title': '85kW Solar Hybrid minigrid in Dakkiti community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [9.725, 8.319] 	 
+                },
+                'properties': {
+                    'title': '91kW Solar Hybrid minigrid in Sarkin Kudu community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [9.725, 8.475] 	  
+                },
+                'properties': {
+                    'title': '150kW Solar Hybrid minigrid in Kuka community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [9.573, 8.674] 	 	  
+                },
+                'properties': {
+                    'title': '150kW Solar Hybrid minigrid in Shimankar community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [9.373, 8.874] 	 	  
+                },
+                'properties': {
+                    'title': '53kW Solar minigrid in Angwan Rina community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [9.273, 8.974] 	 	  
+                },
+                'properties': {
+                    'title': '53kW Solar minigrid in Demshin community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [9.283, 7.324] 	  	  
+                },
+                'properties': {
+                    'title': '24kW Solar minigrid in Pakau community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [6.778, 7.552] 	  	 	  
+                },
+                'properties': {
+                    'title': '80kW Solar Hybrid minigrid in Obangede community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [6.622, 7.304] 	  	 	 	  
+                },
+                'properties': {
+                    'title': '80kW Solar Hybrid minigrid in Upake community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [3.250, 8.343] 		   	 	 	  
+                },
+                'properties': {
+                    'title': '100kW Solar Hybrid minigrid in Budo Are community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [4.427, 7.318] 		    	 	 	  
+                },
+                'properties': {
+                    'title': '24kW Solar minigrid in Onibambu & Idi Ita community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [4.455, 6.890] 		  	  	 	 	  
+                },
+                'properties': {
+                    'title': '100kW Solar Hybrid minigrid in Olooji community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [4.216, 6.846] 		  	  	 	 	  
+                },
+                'properties': {
+                    'title': '85kW Solar Hybrid minigrid in Gbamu Gbamu community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [3.910, 6.846] 		 	  	 	 	  
+                },
+                'properties': {
+                    'title': '15kW Solar minigrid in OGD Farm E community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [4.871, 7.101] 			  	  	 	 	  
+                },
+                'properties': {
+                    'title': '6kW Solar minigrid in Ligun Water Side community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [4.545, 6.713] 	 			  	  	 	 	  
+                },
+                'properties': {
+                    'title': '30kW Solar Hybrid minigrid in Obadoore community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [5.692, 6.822] 	 	 		  	  	 	 	  
+                },
+                'properties': {
+                    'title': '4kW Solar minigrid in Ofetebe community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [4.794, 6.157] 		  	 		  	  	 	 	  
+                },
+                'properties': {
+                    'title': '30kW Solar Hybrid minigrid in Ugbonla community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [4.965, 5.957] 		 	  	 		  	  	 	 	  
+                },
+                'properties': {
+                    'title': '15kW Solar minigrid in Gbagira community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [5.103, 6.394] 				  	 		  	  	 	 	  
+                },
+                'properties': {
+                    'title': '100kW Solar Hybrid minigrid in Adebayo community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [5.692, 	6.339] 				  	 		  	  	 	 	  
+                },
+                'properties': {
+                    'title': '24kW Solar minigrid in Ogbekpen, Ikpoba community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [5.592, 6.174] 				  	 		  	  	 	 	  
+                },
+                'properties': {
+                    'title': '24kW Solar minigrid in Obayantor community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [5.992, 6.674] 				  	 		  	  	 	 	  
+                },
+                'properties': {
+                    'title': '2kW Solar minigrid in Uniarho community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [6.697, 6.505] 	 			  	 		  	  	 	 	  
+                },
+                'properties': {
+                    'title': '27kW Solar minigrid in Okpechalla/Atachile community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [6.747, 6.305] 	 			  	 		  	  	 	 	  
+                },
+                'properties': {
+                    'title': '80kW Solar minigrid in Onono-Anam Phase 2 community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [8.222, 6.105] 	 			  	 		  	  	 	 	  
+                },
+                'properties': {
+                    'title': '100kW Solar Hybrid minigrid in Eka Awoke community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [7.779, 6.305] 	 			  	 		  	  	 	 	  
+                },
+                'properties': {
+                    'title': '33kW Solar Hybrid minigrid in Umuntumuna Obeagu Isu community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [7.749, 6.305] 	 			  	 		  	  	 	 	  
+                },
+                'properties': {
+                    'title': '66kW Solar Hybrid minigrid in Orie Obeagu Isu community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [8.082, 5.319] 	 	 		  	 		  	  	 	 	  
+                },
+                'properties': {
+                    'title': '50kW Solar minigrid in Umon Island community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [8.782, 6.319] 	 	 		  	 		  	  	 	 	  
+                },
+                'properties': {
+                    'title': '18kW Solar minigrid in Esham community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [7.868, 4.619] 	 	 		  	 		  	  	 	 	  
+                },
+                'properties': {
+                    'title': '80kW Solar Hybrid minigrid in Akpabom community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [7.139, 5.076] 	 	 		  	 		  	  	 	 	  
+                },
+                'properties': {
+                    'title': '11kW Solar minigrid in Umuokwu community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [7.061, 5.046] 	 	 		  	 		  	  	 	 	  
+                },
+                'properties': {
+                    'title': '11kW Solar minigrid in Umuode community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [7.081, 5.096] 	 	 		  	 		  	  	 	 	  
+                },
+                'properties': {
+                    'title': '7kW Solar minigrid in Umuagwu community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [7.179, 5.186] 	 	 		  	 		  	  	 	 	  
+                },
+                'properties': {
+                    'title': '52kW Solar minigrid in Egbeke (Upgraded) community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [6.324, 4.630]  	 		  	 		  	  	 	 	  
+                },
+                'properties': {
+                    'title': '67kW Solar Hybrid minigrid in Akipelai community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            {
+                'type': 'Feature',
+                'geometry': {
+                    'type': 'Point',
+                    'coordinates': [6.279, 4.680]  	 		  	 		  	  	 	 	  
+                },
+                'properties': {
+                    'title': '67kW Solar Hybrid minigrid in Oloibri community',
+                    'description': 'Was installed in xxxxx by the xxxxx'
+                }
+            },
+            ]},
+            
+        });
+
+        map.addLayer({
+            'id': 'point',
+            'type': 'circle',
+            'source': 'point',
+            'paint': {
+                'circle-radius': 5,
+                'circle-color': '#2251ff'
+            }
+        });
+
+        // Add pop-up for the specific point
+        map.on('click', 'point', (e) => {
+    const coordinates = e.features[0].geometry.coordinates.slice();
+    const title = e.features[0].properties.title;
+    const description = e.features[0].properties.description;
+
+    new maplibregl.Popup()
+        .setLngLat(coordinates)
+        .setHTML(`
+            <div class="popup">
+                <h4 class="popup-title">${title}</h4>
+                <p class="popup-description">${description}</p>
+            </div>
+        `)
+        .addTo(map);
+});
+
+        // Change the cursor to a pointer when hovering over the specific point
+        map.on('mouseenter', 'point', () => {
+            map.getCanvas().style.cursor = 'pointer';
+        });
+
+        // Change it back to the default cursor when no longer hovering over the specific point
+        map.on('mouseleave', 'point', () => {
+            map.getCanvas().style.cursor = '';
+        });
+
+        // Handle the hover effect for state fills
+        map.on('mousemove', 'state-fills', (e) => {
+            if (e.features.length > 0) {
+                const feature = e.features[0];
+                const admin1Name = feature.properties['admin1Name'];
+
+                console.log('Hovered Feature ID:', admin1Name);
+
+                if (hoveredStateId) {
+                    map.setFeatureState(
+                        { source: 'states', id: hoveredStateId['admin1Name'] },
+                        { hover: false }
+                    );
+                    console.log('Cleared Feature State:', hoveredStateId['admin1Name']);
+                }
+
+                hoveredStateId = feature.properties;
+                map.setFeatureState(
+                    { source: 'states', id: feature.properties['admin1Name'] },
+                    { hover: true }
+                );
+                console.log('Set Feature State:', feature.properties['admin1Name']);
+            }
+        });
+        
+        // Add click event listener for state fills
+map.on('click', 'state-fills', (e) => {
+    // Get the clicked feature
+    const clickedFeature = e.features[0];
+
+    // Get the bounds of the clicked feature
+    const bounds = new maplibregl.LngLatBounds();
+    clickedFeature.geometry.coordinates[0].forEach(coord => bounds.extend(coord));
+
+    // Fit the map to the bounds of the clicked feature
+    map.fitBounds(bounds, {
+        padding: 50  // You can adjust the padding as needed
+    });
+
+    // Highlight the clicked feature (you can customize this)
+    map.setPaintProperty('state-fills', 'fill-color', '#627BC1');
+    map.setFeatureState(
+        { source: 'states', id: clickedFeature.properties['admin1Name'] },
+        { hover: true }
+    );
+});
+
+// Reset the map's appearance when the user clicks outside of a polygon
+map.on('click', (e) => {
+    const features = map.queryRenderedFeatures(e.point, { layers: ['state-fills'] });
+    if (!features.length) {
+        // Reset the map's appearance
+        map.setPaintProperty('state-fills', 'fill-color', '#627BC1');
+        map.setFeatureState(
+            { source: 'states', id: hoveredStateId['admin1Name'] },
+            { hover: false }
+        );
+        map.flyTo({
+            center: [8.84449, 8.05349],
+            zoom: 5
+        });
+    }
+});
+
+// Clear the feature state when the map is moved
+map.on('move', () => {
+    if (hoveredStateId) {
+        map.setFeatureState(
+            { source: 'states', id: hoveredStateId['admin1Name'] },
+            { hover: false }
+        );
+        hoveredStateId = null;
+    }
+});
+
+
+        // Clear the feature state when the mouse leaves the state-fill layer
+        map.on('mouseleave', 'state-fills', () => {
+            if (hoveredStateId) {
+                map.setFeatureState(
+                    { source: 'states', id: hoveredStateId['admin1Name'] },
+                    { hover: false }
+                );
+                console.log('Cleared Feature State on Mouse Leave:', hoveredStateId['admin1Name']);
+            }
+            hoveredStateId = null;
+        });
+    });
+</script>
 
 <script src="./vendors/popper/popper.min.js"></script>
 <script src="./vendors/bootstrap/bootstrap.min.js"></script>
