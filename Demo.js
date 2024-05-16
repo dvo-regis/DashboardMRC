@@ -340,7 +340,7 @@ var echartsBarSeriesChartInit = function echartsBarSeriesChartInit() {
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
-          color: ["#3448f0", "#34a6f0"],
+          color: ["#5470C6", "#34a6f0"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -449,7 +449,7 @@ var echartsStackedBarSeriesChartInit = function echartsStackedBarSeriesChartInit
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
-          color: ["#3448f0", "#34a6f0"],
+          color: ["#5470C6", "#91CC75"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -474,7 +474,7 @@ var echartsStackedBarSeriesChartInit = function echartsStackedBarSeriesChartInit
               color: utils.getGrays()['500']
             },
             axisLine: {
-              show: true,
+              show: false,
               lineStyle: {
                 color: utils.getGrays()['300'],
                 type: 'solid'
@@ -515,7 +515,7 @@ var echartsStackedBarSeriesChartInit = function echartsStackedBarSeriesChartInit
             stack: "stack",
             data: [118203, 213489, 291034, 141970, 311744, 181203, 231489, 291034,],
             itemStyle: {
-              barBorderRadius: [0, 0, 10, 10]
+              barBorderRadius: [10, 10, 0, 0]
             }
           }, {
             name: 'THERMAL',
@@ -527,8 +527,8 @@ var echartsStackedBarSeriesChartInit = function echartsStackedBarSeriesChartInit
             }
           }],
           grid: {
-            right: 15,
-            left: '7%',
+            right: 12,
+            left: '10%',
             bottom: '8%',
             top: 15,
           }
@@ -555,7 +555,7 @@ var echartsGencoCapacityChartInit = function echartsGencoCapacityChartInit() {
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
-          color: ["#3448f0", "#ff718b"],
+          color: ["#5470C6", "#91CC75"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -679,7 +679,7 @@ var echartsGenerationVsSentChartInit = function echartsGenerationVsSentChartInit
               color: utils.getGrays()['500']
             },
             axisLine: {
-              show: true,
+              show: false,
               lineStyle: {
                 color: utils.getGrays()['300'],
                 type: 'solid'
@@ -753,7 +753,7 @@ var echartsTLFChartInit = function echartsTLFChartInit() {
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
-          color: ["#3448f0", "#ff718b"],
+          color: ["#5470C6"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -808,10 +808,17 @@ var echartsTLFChartInit = function echartsTLFChartInit() {
             },
             data: ['2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023']
           },
-          series: [{
-            name: 'TOTAL',
-            type: 'line', 
-            data: [61823, 41389, 49034, 41970, 31174, 81203, 31489, 91034],
+          series: {
+            name: 'Available',
+            type: 'line',
+            stack: 'Total', 
+            areaStyle: {
+              color: '#F1F3F9',
+            },
+            emphasis: {
+                focus: 'series'
+            },
+            data: [14, 14,14, 14, 14, 13, 14, 14],
             smooth: true,
           }, {
             name: 'PARTIAL',
@@ -848,7 +855,7 @@ var echartsSystemCollapseChartInit = function echartsSystemCollapseChartInit() {
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
-          color: ["#3448f0", "#ff718b"],
+          color: ["#5470C6", "#91CC75"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -940,7 +947,7 @@ var echartsATCnCChartInit = function echartsATCnCChartInit() {
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
-          color: ["#3448f0"],
+          color: ["#5470C6"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -959,7 +966,7 @@ var echartsATCnCChartInit = function echartsATCnCChartInit() {
           yAxis: {
             type: 'value',
             axisLine: {
-              show: true,
+              show: false,
               lineStyle: {
                 color: utils.getGrays()['300'],
                 type: 'solid'
@@ -1002,12 +1009,12 @@ var echartsATCnCChartInit = function echartsATCnCChartInit() {
             type: 'bar',
             data: [82, 89, 94, 97, 74, 81, 89, 94,],
             itemStyle: {
-              barBorderRadius: [10, 10, 10, 10]
+              barBorderRadius: [0, 0, 0, 0]
             },
             showBackground: true,
             backgroundStyle: {
             color: 'rgba(180, 180, 180, 0.2)',
-            barBorderRadius: [10, 10, 10, 10]
+            barBorderRadius: [10, 10, 0, 0]
             }
           }, 
         ],
@@ -1040,18 +1047,18 @@ var echartsAverageTariffChartInit = function echartsAverageTariffChartInit() {
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
-          color: ["#649E91", "#D199A3", "#4D1A7F", "#9F99D1", "#E29666", "#4D1A7F", "#66AAE2", "#D1B699", "#E2CA66", "#99BDD1", "#CAC8B1"],
+          color: ["#23376B", "#2D488B", "#3D5AA9", "#5470C6","#5470C6", "#6A82D8", "#8497E9", "#A0ADF4", "#BCC3FB", "#D7DBFE", "#F2F3FF"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
               type: 'shadow'
             },
             backgroundColor: utils.getGrays()['100'],
-            borderColor: utils.getGrays()['300'],
+            borderColor:utils.getGrays()['300'],
             textStyle: {
               color: utils.getColors().dark,
             },
-            borderWidth: 1,
+            borderWidth: 0,
             transitionDuration: 0,
             formatter: tooltipFormatter
           },
@@ -1065,7 +1072,7 @@ var echartsAverageTariffChartInit = function echartsAverageTariffChartInit() {
               color: utils.getGrays()['500']
             },
             axisLine: {
-              show: true,
+              show: false,
               lineStyle: {
                 color: utils.getGrays()['300'],
                 type: 'solid'
@@ -1195,8 +1202,8 @@ var echartsAverageTariffChartInit = function echartsAverageTariffChartInit() {
         ],
           grid: {
             right: 15,
-            left: '7%',
-            bottom: '8%',
+            left: '10%',
+            bottom: '10%',
             top: 15,
           }
         };
@@ -1367,7 +1374,7 @@ var echartsEnergyRecievedChartInit = function echartsEnergyRecievedChartInit() {
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
-          color: ["#3448f0"],
+          color: ["#5470C6"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -1386,7 +1393,7 @@ var echartsEnergyRecievedChartInit = function echartsEnergyRecievedChartInit() {
           yAxis: {
             type: 'value',
             axisLine: {
-              show: true,
+              show: false,
               lineStyle: {
                 color: utils.getGrays()['300'],
                 type: 'solid'
@@ -1429,12 +1436,12 @@ var echartsEnergyRecievedChartInit = function echartsEnergyRecievedChartInit() {
             type: 'bar',
             data: [82, 89, 94, 97, 74, 81, 89, 94,],
             itemStyle: {
-              barBorderRadius: [10, 10, 10, 10]
+              barBorderRadius: [0, 0, 0, 0]
             },
             showBackground: true,
             backgroundStyle: {
             color: 'rgba(180, 180, 180, 0.2)',
-            barBorderRadius: [10, 10, 10, 10]
+            barBorderRadius: [10, 10, 0, 0]
             }
           }, 
         ],
@@ -1467,7 +1474,7 @@ var echartsRevenueCollectedChartInit = function echartsRevenueCollectedChartInit
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
-          color: ["#3448f0"],
+          color: ["#5470C6"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -1486,7 +1493,7 @@ var echartsRevenueCollectedChartInit = function echartsRevenueCollectedChartInit
           yAxis: {
             type: 'value',
             axisLine: {
-              show: true,
+              show: false,
               lineStyle: {
                 color: utils.getGrays()['300'],
                 type: 'solid'
@@ -1529,12 +1536,12 @@ var echartsRevenueCollectedChartInit = function echartsRevenueCollectedChartInit
             type: 'bar',
             data: [82, 89, 94, 97, 74, 81, 89, 94,],
             itemStyle: {
-              barBorderRadius: [10, 10, 10, 10]
+              barBorderRadius: [0, 0, 0, 0]
             },
             showBackground: true,
             backgroundStyle: {
             color: 'rgba(180, 180, 180, 0.2)',
-            barBorderRadius: [10, 10, 10, 10]
+            barBorderRadius: [10, 10, 0, 0]
             }
           }, 
         ],
@@ -1567,7 +1574,7 @@ var echartsRevenueBilledChartInit = function echartsRevenueBilledChartInit() {
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
-          color: ["#3448f0", "#ff718b"],
+          color: ["#5470C6", "#91CC75"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -1592,7 +1599,7 @@ var echartsRevenueBilledChartInit = function echartsRevenueBilledChartInit() {
               color: utils.getGrays()['500']
             },
             axisLine: {
-              show: true,
+              show: false,
               lineStyle: {
                 color: utils.getGrays()['300'],
                 type: 'solid'
@@ -1639,9 +1646,9 @@ var echartsRevenueBilledChartInit = function echartsRevenueBilledChartInit() {
             smooth: true,
           }],
           grid: {
-            right: 5,
-            left: '5%',
-            bottom: '10%',
+            right: '5%',
+            left: '7%',
+            bottom: '8%',
             top: 15,
           }
         };
@@ -1667,7 +1674,6 @@ var echartsInstalledMGCapacityGeneratedChartInit = function echartsInstalledMGCa
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
-          color: ["#2c7be5", "#198754"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -1686,7 +1692,7 @@ var echartsInstalledMGCapacityGeneratedChartInit = function echartsInstalledMGCa
           yAxis: {
             type: 'value',
             axisLine: {
-              show: true,
+              show: false,
               lineStyle: {
                 color: utils.getGrays()['300'],
                 type: 'solid'
@@ -1731,13 +1737,13 @@ var echartsInstalledMGCapacityGeneratedChartInit = function echartsInstalledMGCa
             data: [82, 89, 94, 97, 74, 81, 89, 94,],
             itemStyle: {
               barBorderRadius: [0, 0, 0, 0],
-              borderColor: "#000000",
-              borderWidth: 0.5,
+              borderColor: "",
+              borderWidth: 0,
             },
             showBackground: true,
             backgroundStyle: {
             color: 'rgba(180, 180, 180, 0.2)',
-            barBorderRadius: [0, 0, 10, 10],
+            barBorderRadius: [0, 0, 0, 0],
             
             }
           }, {
@@ -1747,9 +1753,9 @@ var echartsInstalledMGCapacityGeneratedChartInit = function echartsInstalledMGCa
             data: [94, 40, 94, 90, 90, 94, 40, 90],
             smooth: true,
             itemStyle: {
-                barBorderRadius: [10, 10, 0, 0],
-                borderColor: "#000000",
-                borderWidth: 0.5,
+                barBorderRadius: [0, 0, 0, 0],
+                borderColor: "",
+                borderWidth: 0,
               },
           }
         ],
@@ -2188,6 +2194,79 @@ var echartsSBTChartInit = function echartsSBTChartInit() {
   };
 
 
+   /* -------------------------------------------------------------------------- */
+
+/*                                     REGISTERED PROGRAMME                            */
+
+/* -------------------------------------------------------------------------- */
+
+
+  var echartsRegisteredProgrammeInit = function echartsRegisteredProgrammeInit() {
+    var $echartsRegisteredProgramme = document.querySelector('.registered');
+  
+    if ($echartsRegisteredProgramme) {
+      var userOptions = utils.getData($echartsRegisteredProgramme, 'options');
+      var chart = window.echarts.init($echartsRegisteredProgramme);
+  
+      var getDefaultOptions = function getDefaultOptions() {
+
+        return {
+              tooltip: {
+                trigger: 'item'
+              },
+              visualMap: {
+                show: false,
+                min: 80,
+                max: 600,
+                inRange: {
+                  colorLightness: [0, 1]
+                }
+              },
+              series: [
+                {
+                  name: 'Access From',
+                  type: 'pie',
+                  radius: '55%',
+                  center: ['50%', '50%'],
+                  data: [
+                    { value: 335, name: 'Direct' },
+                    { value: 310, name: 'Email' },
+                    { value: 274, name: 'Union Ads' },
+                    { value: 235, name: 'Video Ads' },
+                    { value: 400, name: 'Search Engine' }
+                  ].sort(function (a, b) {
+                    return a.value - b.value;
+                  }),
+                  roseType: 'radius',
+                  label: {
+                    color: 'rgba(255, 255, 255, 0.3)'
+                  },
+                  labelLine: {
+                    lineStyle: {
+                      color: 'rgba(255, 255, 255, 0.3)'
+                    },
+                    smooth: 0.2,
+                    length: 10,
+                    length2: 20
+                  },
+                  itemStyle: {
+                    color: '#185B86',
+                    shadowBlur: 1,
+                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                  },
+                  animationType: 'scale',
+                  animationEasing: 'elasticOut',
+                  animationDelay: function (idx) {
+                    return Math.random() * 200;
+                  }
+                }
+              ]   
+        };
+      };
+      echartSetOption(chart, userOptions, getDefaultOptions);
+    }
+  };
+
   /* -------------------------------------------------------------------------- */
 
 /*                             Initialization                            */
@@ -2211,8 +2290,5 @@ docReady(echartsPeopleConnectedMGChartInit);
 docReady(echartsCommunitiesConnectedMGChartInit);
 docReady(echartsMeteredVsUnmeteredInit);
 docReady(echartsSBTChartInit);
-
-
-
-
+docReady(echartsRegisteredProgrammeInit)
 
