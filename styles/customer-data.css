@@ -639,9 +639,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  border: solid 0.1rem #eaecf0;
   box-sizing: border-box;
-  background-color: #ffffff;
   border-radius: 2.4rem;
   flex-shrink: 0;
 }
@@ -666,7 +664,6 @@ body {
   font-size: 1.8rem;
   font-weight: 600;
   line-height: 1.5555555556;
-  color: #f1f1f1;
   font-family: DM Sans, 'Source Sans Pro';
   white-space: nowrap;
   display: flex;

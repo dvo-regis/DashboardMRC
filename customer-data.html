@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A500"/>
   <link rel="stylesheet" href="./styles/customer-data.css"/>
   <link rel="stylesheet" href="./Demo.css"/>
+  <link rel="stylesheet" href="./m-um-customer-data-table.css"/>
 </head>
 <body>
 <div class="customer-data-Wqy">
@@ -112,219 +113,224 @@
           </div>
         </div>
         <div class="table-jP9">
-          <div class="section-header-Ubd">
-            <div class="content-RFy">
-              <div class="frame-427318215-Nh1">Total number of metered customers by Discos</div>
-              <div class="auto-group-mb63-FVu">Number of unmetered customers by Discos</div>
+          <div class="tab-container-customerdata">
+            <div class="tabs-customerdata">
+              <button class="tab-button-customerdata" onclick="openTab(event, 'table1')">Metered Customers</button>
+              <button class="tab-button-customerdata" onclick="openTab(event, 'table2')">Unmetered Customers</button>
             </div>
-          </div>
-          <div class="content-Wwd">
-            <div class="column-fZd">
-              <div class="table-header-cell-zbu">
-                <img class="checkbox-WaF" src="./assets/checkbox-ztT.png"/>
-                <div class="table-header-rPD">
-                  <p class="text-aa7">Discos</p>
-                  <img class="arrow-down-XET" src="./assets/arrow-down-bns.png"/>
-                </div>
-              </div>
-              <div class="table-cell-dYP">
-                <div class="auto-group-lfrd-mPh">
-                  <img class="image-20-7Cf" src="./assets/image-20.png"/>
-                </div>
-                <div class="text-and-supporting-text-36K">Abuja Disco</div>
-              </div>
-              <div class="table-cell-87m">
-                <div class="auto-group-1kr5-s5M">
-                  <img class="image-21-c2w" src="./assets/image-21.png"/>
-                </div>
-                <div class="text-and-supporting-text-Frb">Benin Disco</div>
-              </div>
-              <div class="table-cell-wUX">
-                <div class="auto-group-ocf5-gS7">
-                  <img class="image-22-cqZ" src="./assets/image-22-2Tm.png"/>
-                </div>
-                <div class="text-and-supporting-text-a1h">Eko Disco</div>
-              </div>
-              <div class="table-cell-4Bm">
-                <div class="auto-group-h7rj-BnB">
-                  <div class="checkbox-base-WpT">
-                  </div>
-                  <img class="image-23-Dym" src="./assets/image-23.png"/>
-                </div>
-                <div class="text-and-supporting-text-Mq5">Enugu Disco</div>
-              </div>
-              <div class="table-cell-rG3">
-                <div class="auto-group-sql3-PWs">
-                  <div class="checkbox-base-ip3">
-                  </div>
-                  <img class="image-25-dg7" src="./assets/image-25-XQw.png"/>
-                </div>
-                <div class="text-and-supporting-text-n3D">Ibadan Disco</div>
-              </div>
-              <div class="table-cell-URq">
-                <div class="auto-group-thk9-azf">
-                  <img class="image-26-KBZ" src="./assets/image-26-huM.png"/>
-                </div>
-                <div class="text-and-supporting-text-Fb1">Ikeja Disco</div>
-              </div>
-              <div class="table-cell-xEX">
-                <div class="auto-group-cpss-VET">
-                  <img class="image-27-pXd" src="./assets/image-27.png"/>
-                </div>
-                <div class="text-and-supporting-text-y9d">Jos Disco</div>
-              </div>
-              <div class="table-cell-CYB">
-                <div class="auto-group-sssq-6dZ">
-                  <img class="image-28-EDy" src="./assets/image-28.png"/>
-                </div>
-                <div class="text-and-supporting-text-mUo">Kaduna Disco</div>
+        
+            <div id="table1" class="tab-content-customerdata">
+              <h2>Total number of metered customers by Discos</h2>
+              <div class="table-container-customerdata">
+                <table id="meteredTable" class="genco-table">
+                  <thead>
+                    <tr>
+                      <th>Discos</th>
+                      <th>2018</th>
+                      <th>2019</th>
+                      <th>2020</th>
+                      <th>2021</th>
+                      <th>2022</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><img src="assets/DiscoLogos/AEdc logo.png" alt="Disco Logo"> Abuja Disco</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                    </tr>
+                    <tr>
+                      <td><img src="assets/DiscoLogos/BEDc logo.png" alt="Disco Logo"> Benin Disco</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                    </tr>
+                    <tr>
+                      <td><img src="assets/DiscoLogos/EEDc logo.png" alt="Disco Logo"> Enugu Disco</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                    </tr><tr>
+                      <td><img src="assets/DiscoLogos/ekedc logo.png" alt="Disco Logo">Eko Disco</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                    </tr>
+                    <tr>
+                      <td><img src="assets/DiscoLogos/IBEDC logo.png" alt="Disco Logo"> Ibadan Disco</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                    </tr>
+                    <tr>
+                      <td><img src="assets/DiscoLogos/Ikeja electric logo.png" alt="Disco Logo"> Ikeja Disco</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                    </tr>
+                    <tr>
+                      <td><img src="assets/DiscoLogos/jedc logo.png" alt="Disco Logo"> Jos Disco</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                    </tr>
+                    <tr>
+                      <td><img src="assets/DiscoLogos/kaduna electric logo.png" alt="Disco Logo"> Kaduna Disco</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                    </tr>
+                    <tr>
+                      <td><img src="assets/DiscoLogos/kano edc logo.png" alt="Disco Logo"> Kano Disco</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                    </tr>
+                    <tr>
+                      <td><img src="assets/DiscoLogos/phedc logo.png" alt="Disco Logo"> Port-Harcourt Disco</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                    </tr>
+                    <tr>
+                      <td><img src="assets/DiscoLogos/yedc logo.png" alt="Disco Logo"> Yola Disco</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                      <td>9,000</td>
+                    </tr>
+                    <!-- Additional rows here -->
+                  </tbody>
+                </table>
               </div>
             </div>
-            <div class="auto-group-vcbm-TMd">
-              <div class="column-neo">
-                <div class="auto-group-np5d-X6b">
-                  <div class="table-header-cell-TF9">2018</div>
-                  <div class="table-cell-8MH">
-                    <div class="text-and-supporting-text-cnF">9,000</div>
-                  </div>
-                  <div class="table-cell-8Eo">
-                    <div class="text-and-supporting-text-rAo">7856</div>
-                  </div>
-                  <div class="table-cell-MdM">
-                    <div class="text-and-supporting-text-hBR">30989</div>
-                  </div>
-                  <div class="table-cell-p19">
-                    <div class="text-and-supporting-text-M15">5400</div>
-                  </div>
-                  <div class="table-cell-TZu">
-                    <div class="text-and-supporting-text-mKh">23456</div>
-                  </div>
-                  <div class="table-cell-rrw">
-                    <div class="text-and-supporting-text-zy9">Lagos North</div>
-                  </div>
-                </div>
-                <div class="table-cell-Wgb">
-                  <div class="text-and-supporting-text-f3h">Bauchi, Benue</div>
-                </div>
-                <div class="table-cell-y4P">
-                  <div class="text-and-supporting-text-7gP">15000</div>
-                </div>
-              </div>
-              <div class="column-dej">
-                <div class="auto-group-ytfq-Mqd">
-                  <div class="table-header-cell-HUP">2019</div>
-                  <div class="table-cell-9mV">
-                    <div class="text-and-supporting-text-sSb">FCT</div>
-                  </div>
-                  <div class="table-cell-z1R">
-                    <div class="text-and-supporting-text-X1M">Lagos South</div>
-                  </div>
-                  <div class="table-cell-daB">
-                    <div class="text-and-supporting-text-mAb">Delta</div>
-                  </div>
-                  <div class="table-cell-g2f">
-                    <div class="text-and-supporting-text-o7H">Abia, Anambra</div>
-                  </div>
-                  <div class="table-cell-Ho9">
-                    <div class="text-and-supporting-text-d6K">Kwara</div>
-                  </div>
-                  <div class="table-cell-wMu">
-                    <div class="text-and-supporting-text-Ucj">Lagos North</div>
-                  </div>
-                </div>
-                <div class="table-cell-K7Z">
-                  <div class="text-and-supporting-text-evX">Bauchi, Benue</div>
-                </div>
-                <div class="table-cell-yC7">
-                  <div class="text-and-supporting-text-h87">15000</div>
-                </div>
-              </div>
-              <div class="column-yrK">
-                <div class="auto-group-gvaf-iJ7">
-                  <div class="table-header-cell-rQK">2020</div>
-                  <div class="table-cell-98X">
-                    <div class="text-and-supporting-text-URh">FCT</div>
-                  </div>
-                  <div class="table-cell-ytF">
-                    <div class="text-and-supporting-text-KhD">Lagos South</div>
-                  </div>
-                  <div class="table-cell-EpB">
-                    <div class="text-and-supporting-text-Y4B">Delta</div>
-                  </div>
-                  <div class="table-cell-r4s">
-                    <div class="text-and-supporting-text-Nou">Abia, Anambra</div>
-                  </div>
-                  <div class="table-cell-6V1">
-                    <div class="text-and-supporting-text-DpX">Kwara</div>
-                  </div>
-                  <div class="table-cell-jns">
-                    <div class="text-and-supporting-text-UkT">Lagos North</div>
-                  </div>
-                </div>
-                <div class="table-cell-Bes">
-                  <div class="text-and-supporting-text-8KD">Bauchi, Benue</div>
-                </div>
-                <div class="table-cell-UnP">
-                  <div class="text-and-supporting-text-RBq">15000</div>
-                </div>
-              </div>
-              <div class="column-iwd">
-                <div class="auto-group-yozu-eqH">
-                  <div class="table-header-cell-PXy">2021</div>
-                  <div class="table-cell-UpK">
-                    <div class="text-and-supporting-text-259">FCT</div>
-                  </div>
-                  <div class="table-cell-8P5">
-                    <div class="text-and-supporting-text-s5m">Lagos South</div>
-                  </div>
-                  <div class="table-cell-aF5">
-                    <div class="text-and-supporting-text-i6P">Delta</div>
-                  </div>
-                  <div class="table-cell-2My">
-                    <div class="text-and-supporting-text-xmR">Abia, Anambra</div>
-                  </div>
-                  <div class="table-cell-sdV">
-                    <div class="text-and-supporting-text-on3">Kwara</div>
-                  </div>
-                  <div class="table-cell-vLs">
-                    <div class="text-and-supporting-text-rEX">Lagos North</div>
-                  </div>
-                </div>
-                <div class="table-cell-NCs">
-                  <div class="text-and-supporting-text-7RM">Bauchi, Benue</div>
-                </div>
-                <div class="table-cell-q6T">
-                  <div class="text-and-supporting-text-yTZ">15000</div>
-                </div>
-              </div>
-              <div class="column-Uv7">
-                <div class="auto-group-xryr-Qom">
-                  <div class="table-header-cell-Yf5">2022</div>
-                  <div class="table-cell-Eno">
-                    <div class="text-and-supporting-text-AwM">FCT</div>
-                  </div>
-                  <div class="table-cell-HFH">
-                    <div class="text-and-supporting-text-DPq">Lagos South</div>
-                  </div>
-                  <div class="table-cell-8Wo">
-                    <div class="text-and-supporting-text-rhh">Delta</div>
-                  </div>
-                  <div class="table-cell-ATV">
-                    <div class="text-and-supporting-text-WGT">Abia, Anambra</div>
-                  </div>
-                  <div class="table-cell-pY3">
-                    <div class="text-and-supporting-text-kwV">Kwara</div>
-                  </div>
-                  <div class="table-cell-g4T">
-                    <div class="text-and-supporting-text-oes">Lagos North</div>
-                  </div>
-                </div>
-                <div class="table-cell-XKy">
-                  <div class="text-and-supporting-text-d87">Bauchi, Benue</div>
-                </div>
-                <div class="table-cell-jS3">
-                  <div class="text-and-supporting-text-4z7">15000</div>
-                </div>
+            <div id="table2" class="tab-content-customerdata">
+              <h2 style="align-self: center;">Number of unmetered customers by Discos</h2>
+              <div class="table-container-customerdata">
+                <table id="unmeteredTable" class="genco-table">
+                  <thead>
+                    <tr>
+                      <th>Discos</th>
+                      <th>2018</th>
+                      <th>2019</th>
+                      <th>2020</th>
+                      <th>2021</th>
+                      <th>2022</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><img src="assets/DiscoLogos/AEdc logo.png" alt="Disco Logo"> Abuja Disco</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                    </tr>
+                    <tr>
+                      <td><img src="assets/DiscoLogos/BEDc logo.png" alt="Disco Logo"> Benin Disco</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                    </tr>
+                    <tr>
+                      <td><img src="assets/DiscoLogos/EEDc logo.png" alt="Disco Logo"> Enugu Disco</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                    </tr><tr>
+                      <td><img src="assets/DiscoLogos/ekedc logo.png" alt="Disco Logo">Eko Disco</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                    </tr>
+                    <tr>
+                      <td><img src="assets/DiscoLogos/IBEDC logo.png" alt="Disco Logo"> Ibadan Disco</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                    </tr>
+                    <tr>
+                      <td><img src="assets/DiscoLogos/Ikeja electric logo.png" alt="Disco Logo"> Ikeja Disco</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                    </tr>
+                    <tr>
+                      <td><img src="assets/DiscoLogos/jedc logo.png" alt="Disco Logo"> Jos Disco</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                    </tr>
+                    <tr>
+                      <td><img src="assets/DiscoLogos/kaduna electric logo.png" alt="Disco Logo"> Kaduna Disco</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                    </tr>
+                    <tr>
+                      <td><img src="assets/DiscoLogos/kano edc logo.png" alt="Disco Logo"> Kano Disco</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                    </tr>
+                    <tr>
+                      <td><img src="assets/DiscoLogos/phedc logo.png" alt="Disco Logo"> Port-Harcourt Disco</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                    </tr>
+                    <tr>
+                      <td><img src="assets/DiscoLogos/yedc logo.png" alt="Disco Logo"> Yola Disco</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                      <td>3,000</td>
+                    </tr>
+                    <!-- Additional rows here -->
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
@@ -368,229 +374,12 @@
             </p>
           </div>
         </div>
-        <div class="table-gjD">
-          <div class="section-header-SCb">
-            <div class="content-BR5">
-              <p class="text-jSb">Service Based Tariff by Discos</p>
-              <img class="actions-sYo" src="./assets/actions.png"/>
-            </div>
-          </div>
-          <div class="content-bzb">
-            <div class="column-ksV">
-              <div class="table-header-cell-V4P">
-                <img class="checkbox-c91" src="./assets/checkbox-Vn3.png"/>
-                <div class="table-header-wSB">
-                  <p class="text-GzF">Discos</p>
-                  <img class="arrow-down-c2X" src="./assets/arrow-down-W7D.png"/>
-                </div>
-              </div>
-              <div class="table-cell-6iP">
-                <div class="auto-group-tdws-26F">
-                  <img class="image-20-Z6B" src="./assets/image-20-No5.png"/>
-                </div>
-                <div class="text-and-supporting-text-tu9">Abuja Disco</div>
-              </div>
-              <div class="table-cell-aX5">
-                <div class="auto-group-xhb9-KDm">
-                  <img class="image-21-Tas" src="./assets/image-21-6GK.png"/>
-                </div>
-                <div class="text-and-supporting-text-bwy">Benin Disco</div>
-              </div>
-              <div class="table-cell-giX">
-                <div class="auto-group-6ppf-1ko">
-                  <img class="image-22-A7u" src="./assets/image-22.png"/>
-                </div>
-                <div class="text-and-supporting-text-uLP">Eko Disco</div>
-              </div>
-              <div class="table-cell-zsd">
-                <div class="auto-group-1vmu-wH5">
-                  <div class="checkbox-base-FoZ">
-                  </div>
-                  <img class="image-23-ZpF" src="./assets/image-23-NVh.png"/>
-                </div>
-                <div class="text-and-supporting-text-hvT">Enugu Disco</div>
-              </div>
-              <div class="table-cell-bkw">
-                <div class="auto-group-rnrh-YAP">
-                  <div class="checkbox-base-UJw">
-                  </div>
-                  <img class="image-25-PRu" src="./assets/image-25.png"/>
-                </div>
-                <div class="text-and-supporting-text-vgj">Ibadan Disco</div>
-              </div>
-              <div class="table-cell-c3m">
-                <div class="auto-group-bepd-YCK">
-                  <img class="image-26-g3d" src="./assets/image-26.png"/>
-                </div>
-                <div class="text-and-supporting-text-cxs">Ikeja Disco</div>
-              </div>
-              <div class="table-cell-7ej">
-                <div class="auto-group-mwnk-FW3">
-                  <img class="image-27-CRH" src="./assets/image-27-f8P.png"/>
-                </div>
-                <div class="text-and-supporting-text-XyM">Jos Disco</div>
-              </div>
-              <div class="table-cell-phZ">
-                <div class="auto-group-nemr-Zf9">
-                  <img class="image-28-uU7" src="./assets/image-28-q63.png"/>
-                </div>
-                <div class="text-and-supporting-text-467">Kaduna Disco</div>
-              </div>
-            </div>
-            <div class="auto-group-ep9r-kUj">
-              <div class="column-VhD">
-                <div class="auto-group-ynkt-2h9">
-                  <div class="table-header-cell-mej">Band A</div>
-                  <div class="table-cell-Fpo">
-                    <div class="text-and-supporting-text-ByM">FCT</div>
-                  </div>
-                  <div class="table-cell-J2P">
-                    <div class="text-and-supporting-text-Rco">Lagos South</div>
-                  </div>
-                  <div class="table-cell-931">
-                    <div class="text-and-supporting-text-5ST">Delta</div>
-                  </div>
-                  <div class="table-cell-PCF">
-                    <div class="text-and-supporting-text-poM">Abia, Anambra</div>
-                  </div>
-                  <div class="table-cell-jvK">
-                    <div class="text-and-supporting-text-smd">Kwara</div>
-                  </div>
-                  <div class="table-cell-bSj">
-                    <div class="text-and-supporting-text-LQK">Lagos North</div>
-                  </div>
-                </div>
-                <div class="table-cell-TE3">
-                  <div class="text-and-supporting-text-o31">Bauchi, Benue</div>
-                </div>
-                <div class="table-cell-7Jb">
-                  <div class="text-and-supporting-text-epK">15000</div>
-                </div>
-              </div>
-              <div class="column-m8F">
-                <div class="auto-group-seck-gm1">
-                  <div class="table-header-cell-pcK">Band B</div>
-                  <div class="table-cell-JnP">
-                    <div class="text-and-supporting-text-qnK">FCT</div>
-                  </div>
-                  <div class="table-cell-ZCX">
-                    <div class="text-and-supporting-text-tkb">Lagos South</div>
-                  </div>
-                  <div class="table-cell-ocf">
-                    <div class="text-and-supporting-text-jmD">Delta</div>
-                  </div>
-                  <div class="table-cell-3mu">
-                    <div class="text-and-supporting-text-zBM">Abia, Anambra</div>
-                  </div>
-                  <div class="table-cell-Jhq">
-                    <div class="text-and-supporting-text-eWo">Kwara</div>
-                  </div>
-                  <div class="table-cell-Zdm">
-                    <div class="text-and-supporting-text-tg3">Lagos North</div>
-                  </div>
-                </div>
-                <div class="table-cell-QeP">
-                  <div class="text-and-supporting-text-Ykb">Bauchi, Benue</div>
-                </div>
-                <div class="table-cell-GAo">
-                  <div class="text-and-supporting-text-PmD">15000</div>
-                </div>
-              </div>
-              <div class="column-JdH">
-                <div class="auto-group-sujb-SUb">
-                  <div class="table-header-cell-yjR">Band C</div>
-                  <div class="table-cell-GTd">
-                    <div class="text-and-supporting-text-c1h">FCT</div>
-                  </div>
-                  <div class="table-cell-v2P">
-                    <div class="text-and-supporting-text-rRq">Lagos South</div>
-                  </div>
-                  <div class="table-cell-a6w">
-                    <div class="text-and-supporting-text-hxF">Delta</div>
-                  </div>
-                  <div class="table-cell-Qrf">
-                    <div class="text-and-supporting-text-kQj">Abia, Anambra</div>
-                  </div>
-                  <div class="table-cell-4gK">
-                    <div class="text-and-supporting-text-zps">Kwara</div>
-                  </div>
-                  <div class="table-cell-K6T">
-                    <div class="text-and-supporting-text-r6P">Lagos North</div>
-                  </div>
-                </div>
-                <div class="table-cell-kxT">
-                  <div class="text-and-supporting-text-6WX">Bauchi, Benue</div>
-                </div>
-                <div class="table-cell-1Nb">
-                  <div class="text-and-supporting-text-YdR">15000</div>
-                </div>
-              </div>
-              <div class="column-45y">
-                <div class="auto-group-ehqo-P8F">
-                  <div class="table-header-cell-iwD">Band D</div>
-                  <div class="table-cell-1vK">
-                    <div class="text-and-supporting-text-YfM">FCT</div>
-                  </div>
-                  <div class="table-cell-TXR">
-                    <div class="text-and-supporting-text-zXM">Lagos South</div>
-                  </div>
-                  <div class="table-cell-Wkb">
-                    <div class="text-and-supporting-text-Su9">Delta</div>
-                  </div>
-                  <div class="table-cell-mRd">
-                    <div class="text-and-supporting-text-uGw">Abia, Anambra</div>
-                  </div>
-                  <div class="table-cell-RFH">
-                    <div class="text-and-supporting-text-xW7">Kwara</div>
-                  </div>
-                  <div class="table-cell-UDZ">
-                    <div class="text-and-supporting-text-c4s">Lagos North</div>
-                  </div>
-                </div>
-                <div class="table-cell-7nK">
-                  <div class="text-and-supporting-text-f39">Bauchi, Benue</div>
-                </div>
-                <div class="table-cell-Akb">
-                  <div class="text-and-supporting-text-Vns">15000</div>
-                </div>
-              </div>
-              <div class="column-ccb">
-                <div class="auto-group-hyhm-9Md">
-                  <div class="table-header-cell-gMZ">Band E</div>
-                  <div class="table-cell-NVH">
-                    <div class="text-and-supporting-text-uk7">FCT</div>
-                  </div>
-                  <div class="table-cell-2Jw">
-                    <div class="text-and-supporting-text-ZJs">Lagos South</div>
-                  </div>
-                  <div class="table-cell-g8b">
-                    <div class="text-and-supporting-text-pEo">Delta</div>
-                  </div>
-                  <div class="table-cell-vYj">
-                    <div class="text-and-supporting-text-fWK">Abia, Anambra</div>
-                  </div>
-                  <div class="table-cell-mZM">
-                    <div class="text-and-supporting-text-JpB">Kwara</div>
-                  </div>
-                  <div class="table-cell-boH">
-                    <div class="text-and-supporting-text-jeb">Lagos North</div>
-                  </div>
-                </div>
-                <div class="table-cell-3vB">
-                  <div class="text-and-supporting-text-ncs">Bauchi, Benue</div>
-                </div>
-                <div class="table-cell-6Nf">
-                  <div class="text-and-supporting-text-SBd">15000</div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-
+<script src="./m-um-customer-table.js"></script>
 <script src="./vendors/popper/popper.min.js"></script>
 <script src="./vendors/bootstrap/bootstrap.min.js"></script>
 <script src="./vendors/anchorjs/anchor.min.js"></script>

@@ -1,0 +1,110 @@
+.tab-container-customerdata {
+    margin: 20px 0;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    background-color: #ffffff00;
+    overflow: auto;
+}
+
+.tabs-customerdata {
+    display: flex;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.tab-button-customerdata {
+    flex: 1;
+    background-color: #F9FAFB;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    color: #7e7e7e;
+    border-right: 1px solid #E0E0E0;
+}
+
+.tab-button-customerdata:last-child {
+    border-right: none;
+}
+
+.tab-button-customerdata:hover {
+    background-color: #e9ecef;
+}
+
+.tab-button-customerdata.active {
+    background-color: #fff;
+    color: #000;
+    border-bottom: 3px solid #000;
+    font-weight: bold;
+}
+
+.tab-content-customerdata {
+    display: none;
+    padding: 20px;
+}
+
+.tab-content-customerdata.active {
+    display: block;
+}
+
+.table-container-customerdata {
+    width: 100%;
+    overflow-x: auto;
+    padding: 5px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.genco-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    border: 1px solid rgb(234, 236, 240);
+    font-family: 'Inter', 'Source Sans Pro';
+}
+
+.genco-table thead, .genco-table tfoot {
+    background: #fff;
+    z-index: 1;
+}
+
+.genco-table th, .genco-table td {
+    padding: 15px;
+    text-align: left;
+    color: #7e7e7e;
+    font-size: 13px;
+    height: 20px;
+}
+
+.genco-table th {
+    background-color: #F9FAFB;
+    font-weight: 500;
+}
+
+.genco-table tbody tr:nth-child(odd) {
+    background-color: #F9FAFB;
+}
+
+.genco-table tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+.genco-table tbody tr td:first-child {
+    display: flex;
+    align-items: center;
+   
+}
+
+.genco-table tbody tr td img {
+    width: 30px;
+    margin-right: 10px;
+}
+.genco-table h2 {
+    font-family: 'DM Sans', sans-serif;
+    color: #000;
+    align-content: center;
+}
