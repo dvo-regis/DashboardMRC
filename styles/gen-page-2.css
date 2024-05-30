@@ -14,8 +14,9 @@ input {
 	border: none;
 }
 body {
-  width: 144rem;
+  width: auto;
   height: auto;
+  position: relative;
   
 }.gen-page-2-vfM {
   box-sizing: border-box;
@@ -26,14 +27,11 @@ body {
   display: flex;
   align-items: flex-start;
   background-color: #fafafd;
-  height: 270em;
 }
 .gen-page-2-vfM .component-1-BbH {
   margin-right: 4rem;
   box-sizing: border-box;
   padding: 5rem 2.9rem 98.9rem 2.9rem;
-  width: 24rem;
-  height: 270em;
   position: fixed;
   align-items: center;
   display: flex;
@@ -188,6 +186,18 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
+
+.genco-table-header {
+  margin-top: 0.0375rem;
+  margin-bottom: 30px;
+  font-family: DM Sans, 'Source Sans Pro';
+  font-weight: 700;
+  font-size: 35px;
+  color: #252733;
+  line-height: 52.08px;
+  text-align: left;
+  width: 100%;
+}
 .gen-page-2-vfM .component-1-BbH .frame-4-ECB .auto-group-cxmu-rgj {
   box-sizing: border-box;
   padding-top: 0.9rem;
@@ -324,7 +334,6 @@ body {
   margin-bottom: 10rem;
   margin-left: 28rem;
   width: 112rem;
-  height: 270em;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -385,7 +394,6 @@ body {
 }
 .gen-page-2-vfM .frame-45-doH .auto-group-sthz-TpF {
   width: 100%;
-  height: 260em;
   display: flex;
   flex-direction: column;
   position: relative;

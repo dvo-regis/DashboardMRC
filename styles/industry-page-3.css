@@ -317,6 +317,7 @@ body {
   height: 263.4rem;
   background-color: #f0f5f9;
   flex-shrink: 0;
+  margin-left: 250px;
 }
 .industry-page-3-o5u .frame-50-3Bq .energy-performance-tracker-kM9 {
   margin-bottom: 2.9rem;
@@ -921,7 +922,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  border: solid 0.1rem rgba(234, 236, 240, 0.8117647171);
+  border: solid 0.1rem rgba(220, 221, 223, 0.812);
   box-sizing: border-box;
   border-radius: 2.4rem;
 }

@@ -1,0 +1,113 @@
+body {
+  font-family: DM Sans, 'Source Sans Pro';
+  }
+  
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+    padding: 5px;
+    background: #fff; /* Ensure the background is white to see the shadow */
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light grey outer shadow */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    position: relative;
+    border-radius: 0.8rem;
+    border: 0.12rem solid rgb(234, 236, 240); /* Outer border */
+  }
+  
+  thead, tfoot {
+    position: sticky;
+    background: #ffff;
+    z-index: 1;
+    border-radius: 10px;
+  }
+  
+  th, td {
+    height: 50px;
+    padding: 8px;
+    text-align: left;
+    color:#7e7e7e;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 12px;
+    font-weight: 500;
+
+  }
+  
+  th {
+    cursor: pointer;
+    position: relative;
+  }
+
+  thead {
+    top: 0;
+  }
+
+  tfoot {
+    bottom: 0;
+  }
+  
+  .sort-arrow {
+    margin-left: 5px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #000;
+    visibility: hidden;
+  }
+  
+  .sort-asc .sort-arrow {
+    visibility: visible;
+    transform: rotate(180deg);
+  }
+  
+  .sort-desc .sort-arrow {
+    visibility: visible;
+  }
+  
+  img {
+    width: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+  
+  tbody {
+    display: block;
+    max-height: calc(10 * 55px); /* Adjust this to match the height of 10 rows */
+    overflow-y: auto;
+  }
+  
+  tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #F9FAFB;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  
+  thead, tbody tr, tfoot tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  tbody td:first-child, thead th:first-child, tfoot td:first-child {
+    width:300px; /* Adjust this to make the first column wider */
+    color:#000000;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 13px;
+    font-weight: 500;
+  }
+  

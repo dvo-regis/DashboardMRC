@@ -1,0 +1,150 @@
+/* Container for the tables */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    background: #fff; /* Ensure the background is white to see the shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light grey outer shadow */
+}
+
+/* Styles specific to GENCO and Energy Billed tables */
+.genco-table, .energy-billed-table .energy-recieved-table .revenue-collected-table .revenue-billed-table{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    position: relative;
+    border-radius: 0.8rem;
+    border: 0.12rem solid rgb(234, 236, 240); /* Outer border */
+}
+
+.genco-table thead, .genco-table tfoot,
+.energy-billed-table thead, .energy-billed-table tfoot,
+.energy-recieved-table thead, .energy-recieved-table tfoot, 
+.revenue-collected-table thead, .revenue-collected-table tfoot,
+.revenue-billed-table thead, .revenue-billed-table tfoot{
+    position: sticky;
+    background: #fff;
+    z-index: 1;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.genco-table th, .genco-table td,
+.energy-billed-table th, .energy-billed-table td,
+.energy-recieved-table th, .energy-recieved-table td, 
+.revenue-collected-table th, .revenue-collected-table td,
+.revenue-billed-table th, .revenue-billed-table td  {
+    height: 25px;
+    padding: 8px;
+    text-align: center;
+    color: #7e7e7e;
+    font-family: 'Inter', 'Source Sans Pro';
+    font-size: 10px;
+    font-weight: 500;
+}
+
+
+.genco-table th, .energy-billed-table th, .energy-recieved-table th, .revenue-collected-table th, .revenue-billed-table th {
+    cursor: pointer;
+    position: relative;
+}
+
+.genco-table thead, .energy-billed-table thead, .energy-recieved-table thead, .revenue-collected-table thead, .revenue-billed-table thead {
+    top: 0;
+}
+
+.genco-table tfoot, .energy-billed-table tfoot, .energy-recieved-table tfoot, .revenue-collected-table tfoot, .revenue-billed-table tfoot {
+    bottom: 0;
+}
+
+.genco-table .sort-arrow, .energy-billed-table .sort-arrow , .energy-recieved-table .sort-arrow, 
+.revenue-collected-table .sort-arrow, .revenue-billed-table .sort-arrow{
+    margin-left: 5px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #000;
+    visibility: hidden;
+}
+
+.genco-table .sort-asc .sort-arrow, .energy-billed-table .sort-asc .sort-arrow, .energy-recieved-table .sort-arrow .sort-asc, 
+.revenue-collected-table  .sort-arrow .sort-asc, .revenue-billed-table .sort-arrow .sort-asc {
+    visibility: visible;
+    transform: rotate(180deg);
+}
+
+.genco-table .sort-desc .sort-arrow, .energy-billed-table .sort-desc .sort-arrow, .energy-recieved-table .sort-desc .sort-arrow, 
+.revenue-collected-table  .sort-arrow .sort-desc,  .revenue-billed-table .sort-arrow .sort-desc{
+    visibility: visible;
+}
+
+.genco-table img, .energy-billed-table img, .energy-recieved-table img, .revenue-collected-table img, .revenue-billed-table img  {
+    max-width: 25px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.genco-table tbody, .energy-billed-table tbody, .energy-recieved-table tbody, 
+.revenue-collected-table tbody, .revenue-billed-table tbody {
+    display: block;
+    max-height: calc(10 * 90px); /* Adjust this to match the height of 10 rows */
+    overflow-y: auto;
+}
+
+.genco-table tbody tr, .energy-billed-table tbody tr, .energy-recieved-table tbody tr, 
+.revenue-collected-table tbody tr, .revenue-billed-table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.genco-table tbody tr:nth-child(odd), .energy-billed-table tbody tr:nth-child(odd), .energy-recieved-table tbody tr:nth-child(odd),
+.revenue-collected-table tbody tr:nth-child(odd), .revenue-billed-table tbody tr:nth-child(odd) {
+    background-color: #F9FAFB;
+}
+
+.genco-table tbody tr:nth-child(even), .energy-billed-table tbody tr:nth-child(even), .energy-recieved-table tbody tr:nth-child(even),
+.revenue-collected-table tbody tr:nth-child(even), .revenue-billed-table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.genco-table thead, .genco-table tbody tr, .genco-table tfoot tr,
+.energy-billed-table thead, .energy-billed-table tbody tr, .energy-billed-table tfoot tr ,
+.energy-recieved-table thead, .energy-recieved-table tbody tr, .energy-recieved-table tfoot tr,
+.revenue-collected-table thead, .revenue-collected-table tbody tr, .revenue-collected-table tfoot tr,
+.revenue-billed-table thead, .revenue-billed-table tbody tr, .revenue-billed-table tfoot tr{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.genco-table tbody td:first-child, .genco-table thead th:first-child, .genco-table tfoot td:first-child,
+.energy-billed-table tbody td:first-child, .energy-billed-table thead th:first-child, .energy-billed-table tfoot td:first-child,
+.energy-recieved-table tbody td:first-child, .energy-recieved-table thead th:first-child, .energy-recieved-table tfoot td:first-child,
+.revenue-collected-table tbody td:first-child, .revenue-collected-table thead th:first-child, .revenue-collected-table tfoot td:first-child,
+.revenue-billed-table tbody td:first-child, .revenue-billed-table thead th:first-child, .revenue-billed-table tfoot td:first-child  {
+    width: 100px; /* Adjust this to make the first column wider */
+    color: #000;
+    font-family: 'Inter', 'Source Sans Pro';
+    font-size: 11px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.genco-table tbody tr:nth-child(odd) td:nth-child(2),
+.energy-billed-table tfoot :nth-child(2), .energy-billed-table thead :nth-child(2), .energy-billed-table tbody tr:nth-child(odd) td:nth-child(2), 
+.energy-recieved-table thead :nth-child(2), .energy-recieved-table tbody tr:nth-child(odd) td:nth-child(2),
+.revenue-collected-table tfoot :nth-child(2), .revenue-collected-table thead :nth-child(2), .revenue-collected-table tbody tr:nth-child(odd) td:nth-child(2),
+.revenue-billed-table tfoot :nth-child(2), .revenue-billed-table thead :nth-child(2), .revenue-billed-table tbody tr:nth-child(odd) td:nth-child(2){
+    background-color: #EFF0FE;
+}
+
+.genco-table tbody tr:nth-child(even) td:nth-child(2),
+.energy-billed-table tfoot :nth-child(2), .energy-billed-table thead :nth-child(2), .energy-billed-table tbody tr:nth-child(even) td:nth-child(2),
+.energy-recieved-table tfoot :nth-child(2), .energy-recieved-table thead :nth-child(2), .energy-recieved-table tbody tr:nth-child(even) td:nth-child(2),
+.revenue-collected-table tfoot :nth-child(2), .revenue-collected-table thead :nth-child(2), .revenue-collected-table tbody tr:nth-child(even) td:nth-child(2),
+.revenue-billed-table tfoot :nth-child(2), .revenue-billed-table thead :nth-child(2), .revenue-billed-table tbody tr:nth-child(even) td:nth-child(2) {
+    background-color: #E3EEFE;
+}

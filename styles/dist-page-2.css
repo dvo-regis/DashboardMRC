@@ -33,6 +33,7 @@ body {
   flex-direction: column;
   background-color: #080808;
   flex-shrink: 0;
+  z-index: 1000;
 }
 .dist-page-2-uMM .component-1-zdh .frame-33-TnB {
   margin-bottom: 4rem;
@@ -398,6 +399,85 @@ body {
   border-radius: 0.2rem;
   flex-shrink: 0;
 }
+-------------------------------Table Disco ----------------------------
+
+
+
+.table-container1 {
+  width: 0%;
+  overflow-x: auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-color: #080808;
+  border-width: 1px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #f9f9f9;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 500;
+  color: #333;
+  font-family: 'DM Sans';
+  line-height: 1px;
+}
+
+th {
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+
+tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.color-box1 {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 600px) {
+  .table-container1 {
+      width: 100%;
+  }
+
+  th, td {
+      padding: 8px 10px;
+  }
+}
+
+.disco-analysis {
+  margin-top: 15rem;
+  margin-bottom: 0px;
+  font-family: DM Sans, 'Source Sans Pro';
+  font-weight: 700;
+  font-size: 35px;
+  color: #252733;
+  line-height: 52.08px;
+  text-align: left;
+  width: 100%;
+}
+
+-------------------------------Table Disco ----------------------------
+
 .dist-page-2-uMM .frame-41-fK9 .auto-group-zudz-WKm .mini-grid-eD1 .table-f87 {
   width: 46.3rem;
   height: 42rem;
@@ -1164,7 +1244,7 @@ body {
   height: 38.3966rem;
   position: absolute;
   left: 0.1rem;
-  top: 61.1rem;
+  top:71.1rem;
   display: flex;
   align-items: center;
 }
@@ -1843,6 +1923,7 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
+  margin-top: 5rem;
 }
 .dist-page-2-uMM .frame-41-fK9 .auto-group-6ynw-iU3 .frame-427318177-RdM {
   margin-bottom: 2rem;
@@ -1869,7 +1950,6 @@ body {
   flex-shrink: 0;
 }
 .dist-page-2-uMM .frame-41-fK9 .auto-group-6ynw-iU3 .frame-427318177-RdM .frame-13-jP9 .total-energy-billed-by-discosmw-Ta3 {
-  width: 16.6rem;
   height: 4.7rem;
   position: absolute;
   left: 2.5rem;
@@ -1877,7 +1957,7 @@ body {
   font-size: 1.8rem;
   font-weight: 700;
   line-height: 1.3025;
-  color: #dfe4ff;
+  color: #000000;
   font-family: DM Sans, 'Source Sans Pro';
 }
 .dist-page-2-uMM .frame-41-fK9 .auto-group-6ynw-iU3 .frame-427318177-RdM .frame-13-jP9 .vector-3-MQX {
@@ -2124,19 +2204,27 @@ body {
 }
 .dist-page-2-uMM .frame-41-fK9 .auto-group-6ynw-iU3 .frame-427318177-RdM .frame-14-sS3 {
   box-sizing: border-box;
-  padding: 2rem 0rem 2.2rem 2.5rem;
   width: 52.8rem;
   height: 100%;
-  overflow: hidden;
+  overflow: auto;
   position: relative;
-  border-radius: 2rem;
+  border-radius: 1rem;
   flex-shrink: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .dist-page-2-uMM .frame-41-fK9 .auto-group-6ynw-iU3 .frame-427318177-RdM .frame-14-sS3 .auto-group-hpyo-CUK {
   margin: 0rem 2.032rem 2.1rem 0rem;
   width: calc(100% - 2.0322rem);
   display: flex;
   align-items: flex-start;
+}
+.genco-table tbody td:first-child, .genco-table thead th:first-child, .genco-table tfoot td:first-child,
+.energy-billed-table tbody td:first-child, .energy-billed-table thead th:first-child, .energy-billed-table tfoot td:first-child {
+    width: 100px; /* Adjust this to make the first column wider */
+    color: #000;
+    font-family: 'Inter', 'Source Sans Pro';
+    font-size: 13px;
+    font-weight: 500;
 }
 .dist-page-2-uMM .frame-41-fK9 .auto-group-6ynw-iU3 .frame-427318177-RdM .frame-14-sS3 .auto-group-hpyo-CUK .total-energy-received-by-discosmw-vv7 {
   margin-right: 16.5rem;
@@ -2148,7 +2236,7 @@ body {
   font-family: DM Sans, 'Source Sans Pro';
   flex-shrink: 0;
 }
-.dist-page-2-uMM .frame-41-fK9 .auto-group-6ynw-iU3 .frame-427318177-RdM .frame-14-sS3 .auto-group-hpyo-CUK .drop-selector-eLK {
+.dist-page-2-uMM .frame-41-fK9 .auto-group-6ynw-iU3 .frame-427318177-RdM .frame-13-jP9 .auto-group-hpyo-CUK .drop-selector-eLK {
   margin-bottom: 1.1rem;
   box-sizing: border-box;
   padding: 1rem 1.6rem;

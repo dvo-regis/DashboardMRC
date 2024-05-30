@@ -14,7 +14,7 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
 
 /* -------------------------------------------------------------------------- */
 var docReady = function docReady(fn) {
-    // see if DOM is already available
+    // see if DOM is already renewable
     if (document.readyState === 'loading') {
       document.addEventListener('DOMContentLoaded', fn);
     } else {
@@ -340,7 +340,7 @@ var echartsBarSeriesChartInit = function echartsBarSeriesChartInit() {
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
-          color: ["#5470C6", "#34a6f0"],
+          color: ["#3448f0", "#34a6f0"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -449,7 +449,7 @@ var echartsStackedBarSeriesChartInit = function echartsStackedBarSeriesChartInit
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
-          color: ["#5470C6", "#91CC75"],
+          color: ["#3448f0", "#34a6f0"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -474,7 +474,7 @@ var echartsStackedBarSeriesChartInit = function echartsStackedBarSeriesChartInit
               color: utils.getGrays()['500']
             },
             axisLine: {
-              show: false,
+              show: true,
               lineStyle: {
                 color: utils.getGrays()['300'],
                 type: 'solid'
@@ -515,7 +515,7 @@ var echartsStackedBarSeriesChartInit = function echartsStackedBarSeriesChartInit
             stack: "stack",
             data: [118203, 213489, 291034, 141970, 311744, 181203, 231489, 291034,],
             itemStyle: {
-              barBorderRadius: [10, 10, 0, 0]
+              barBorderRadius: [0, 0, 10, 10]
             }
           }, {
             name: 'THERMAL',
@@ -527,8 +527,8 @@ var echartsStackedBarSeriesChartInit = function echartsStackedBarSeriesChartInit
             }
           }],
           grid: {
-            right: 12,
-            left: '10%',
+            right: 15,
+            left: '7%',
             bottom: '8%',
             top: 15,
           }
@@ -555,7 +555,7 @@ var echartsGencoCapacityChartInit = function echartsGencoCapacityChartInit() {
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
-          color: ["#5470C6", "#91CC75"],
+          color: ["#3448f0", "#ff718b"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -679,7 +679,7 @@ var echartsGenerationVsSentChartInit = function echartsGenerationVsSentChartInit
               color: utils.getGrays()['500']
             },
             axisLine: {
-              show: false,
+              show: true,
               lineStyle: {
                 color: utils.getGrays()['300'],
                 type: 'solid'
@@ -753,7 +753,7 @@ var echartsTLFChartInit = function echartsTLFChartInit() {
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
-          color: ["#5470C6"],
+          color: ["#3448f0", "#ff718b"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -808,17 +808,10 @@ var echartsTLFChartInit = function echartsTLFChartInit() {
             },
             data: ['2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023']
           },
-          series: {
-            name: 'Available',
-            type: 'line',
-            stack: 'Total', 
-            areaStyle: {
-              color: '#F1F3F9',
-            },
-            emphasis: {
-                focus: 'series'
-            },
-            data: [14, 14,14, 14, 14, 13, 14, 14],
+          series: [{
+            name: 'TOTAL',
+            type: 'line', 
+            data: [61823, 41389, 49034, 41970, 31174, 81203, 31489, 91034],
             smooth: true,
           }, {
             name: 'PARTIAL',
@@ -855,7 +848,7 @@ var echartsSystemCollapseChartInit = function echartsSystemCollapseChartInit() {
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
-          color: ["#5470C6", "#91CC75"],
+          color: ["#3448f0", "#ff718b"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -947,7 +940,7 @@ var echartsATCnCChartInit = function echartsATCnCChartInit() {
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
-          color: ["#5470C6"],
+          color: ["#3448f0"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -966,7 +959,7 @@ var echartsATCnCChartInit = function echartsATCnCChartInit() {
           yAxis: {
             type: 'value',
             axisLine: {
-              show: false,
+              show: true,
               lineStyle: {
                 color: utils.getGrays()['300'],
                 type: 'solid'
@@ -1009,12 +1002,12 @@ var echartsATCnCChartInit = function echartsATCnCChartInit() {
             type: 'bar',
             data: [82, 89, 94, 97, 74, 81, 89, 94,],
             itemStyle: {
-              barBorderRadius: [0, 0, 0, 0]
+              barBorderRadius: [10, 10, 10, 10]
             },
             showBackground: true,
             backgroundStyle: {
             color: 'rgba(180, 180, 180, 0.2)',
-            barBorderRadius: [10, 10, 0, 0]
+            barBorderRadius: [10, 10, 10, 10]
             }
           }, 
         ],
@@ -1047,18 +1040,18 @@ var echartsAverageTariffChartInit = function echartsAverageTariffChartInit() {
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
-          color: ["#23376B", "#2D488B", "#3D5AA9", "#5470C6","#5470C6", "#6A82D8", "#8497E9", "#A0ADF4", "#BCC3FB", "#D7DBFE", "#F2F3FF"],
+          color: ["#649E91", "#D199A3", "#4D1A7F", "#9F99D1", "#E29666", "#4D1A7F", "#66AAE2", "#D1B699", "#E2CA66", "#99BDD1", "#CAC8B1"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
               type: 'shadow'
             },
             backgroundColor: utils.getGrays()['100'],
-            borderColor:utils.getGrays()['300'],
+            borderColor: utils.getGrays()['300'],
             textStyle: {
               color: utils.getColors().dark,
             },
-            borderWidth: 0,
+            borderWidth: 1,
             transitionDuration: 0,
             formatter: tooltipFormatter
           },
@@ -1072,7 +1065,7 @@ var echartsAverageTariffChartInit = function echartsAverageTariffChartInit() {
               color: utils.getGrays()['500']
             },
             axisLine: {
-              show: false,
+              show: true,
               lineStyle: {
                 color: utils.getGrays()['300'],
                 type: 'solid'
@@ -1202,8 +1195,8 @@ var echartsAverageTariffChartInit = function echartsAverageTariffChartInit() {
         ],
           grid: {
             right: 15,
-            left: '10%',
-            bottom: '10%',
+            left: '7%',
+            bottom: '8%',
             top: 15,
           }
         };
@@ -1213,7 +1206,7 @@ var echartsAverageTariffChartInit = function echartsAverageTariffChartInit() {
     }
   };
 
-  /* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
 
 /*                             Energy Billed Chart                           */
 
@@ -1258,20 +1251,20 @@ var EnergyBilledChartInit = function EnergyBilledChartInit() {
                     splitLine: {
                         show: true,
                         lineStyle: {
-                            color: utils.rgbaColor('#fff', 0.1)
+                            color: utils.getGrays()['300'],
                         },
                         interval: 0
                     },
                     axisLine: {
                         lineStyle: {
-                            color: utils.rgbaColor('#fff', 0.1)
+                            color: utils.getGrays()['300'],
                         }
                     },
                     axisTick: {
                         show: true,
                         length: 10,
                         lineStyle: {
-                            color: utils.rgbaColor('#fff', 0.1)
+                            color: utils.getGrays()['300'],
                         }
                     },
                     axisLabel: {
@@ -1307,10 +1300,10 @@ var EnergyBilledChartInit = function EnergyBilledChartInit() {
                     data: dataset.all,
                     symbol: 'emptyCircle',
                     itemStyle: {
-                        color: localStorage.getItem('theme') === 'light' ? utils.getGrays().white : utils.getColors().primary
+                        color: '#2c7be5'
                     },
                     lineStyle: {
-                        color: localStorage.getItem('theme') === 'light' ? utils.rgbaColor(utils.getGrays().white, 0.8) : utils.getColors().primary
+                        color: '#2c7be5'
                     },
                     areaStyle: {
                         color: {
@@ -1374,7 +1367,7 @@ var echartsEnergyRecievedChartInit = function echartsEnergyRecievedChartInit() {
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
-          color: ["#5470C6"],
+          color: ["#3448f0"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -1393,7 +1386,7 @@ var echartsEnergyRecievedChartInit = function echartsEnergyRecievedChartInit() {
           yAxis: {
             type: 'value',
             axisLine: {
-              show: false,
+              show: true,
               lineStyle: {
                 color: utils.getGrays()['300'],
                 type: 'solid'
@@ -1427,21 +1420,19 @@ var echartsEnergyRecievedChartInit = function echartsEnergyRecievedChartInit() {
             splitLine: {
               show: false
             },
-            data: ['2016', '2017', '2018', '2019', '2020', '2021', '2022',
+            data: ['2017', '2018', '2019', '2020', '2021', '2022',
                    '2023',
                   ]
           },
           series: [{
             name: 'Naira',
             type: 'bar',
-            data: [82, 89, 94, 97, 74, 81, 89, 94,],
-            itemStyle: {
-              barBorderRadius: [0, 0, 0, 0]
-            },
+            data: [89, 94, 97, 74, 81, 89, 94,],
+            width: "10px",
             showBackground: true,
             backgroundStyle: {
             color: 'rgba(180, 180, 180, 0.2)',
-            barBorderRadius: [10, 10, 0, 0]
+            barBorderRadius: [10, 10, 10, 10]
             }
           }, 
         ],
@@ -1474,7 +1465,7 @@ var echartsRevenueCollectedChartInit = function echartsRevenueCollectedChartInit
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
-          color: ["#5470C6"],
+          color: ["#3448f0"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -1493,7 +1484,7 @@ var echartsRevenueCollectedChartInit = function echartsRevenueCollectedChartInit
           yAxis: {
             type: 'value',
             axisLine: {
-              show: false,
+              show: true,
               lineStyle: {
                 color: utils.getGrays()['300'],
                 type: 'solid'
@@ -1527,30 +1518,26 @@ var echartsRevenueCollectedChartInit = function echartsRevenueCollectedChartInit
             splitLine: {
               show: false
             },
-            data: ['2016', '2017', '2018', '2019', '2020', '2021', '2022',
+            data: ['2017', '2018', '2019', '2020', '2021', '2022',
                    '2023',
                   ]
           },
           series: [{
             name: 'Naira',
             type: 'bar',
-            data: [82, 89, 94, 97, 74, 81, 89, 94,],
-            itemStyle: {
-              barBorderRadius: [0, 0, 0, 0]
-            },
+            data: [89, 94, 97, 74, 81, 89, 94,],
             showBackground: true,
             backgroundStyle: {
-            color: 'rgba(180, 180, 180, 0.2)',
-            barBorderRadius: [10, 10, 0, 0]
+            color: 'rgba(180, 180, 180, 0.2)'
             }
           }, 
         ],
-          grid: {
-            right: 5,
-            left: '5%',
-            bottom: '8%',
-            top: 15,
-          }
+        grid: {
+          right: 5,
+          left: '6%',
+          bottom: '20%',
+          top: 15,
+        }
         };
       };
   
@@ -1574,7 +1561,7 @@ var echartsRevenueBilledChartInit = function echartsRevenueBilledChartInit() {
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
-          color: ["#5470C6", "#91CC75"],
+          color: ["#3448f0", "#ff718b"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -1589,7 +1576,7 @@ var echartsRevenueBilledChartInit = function echartsRevenueBilledChartInit() {
             transitionDuration: 0,
             formatter: tooltipFormatter
           },
-          backgroundColor: '#fff',
+         
           yAxis: {
             type: 'value',
             axisLabel: {
@@ -1599,7 +1586,7 @@ var echartsRevenueBilledChartInit = function echartsRevenueBilledChartInit() {
               color: utils.getGrays()['500']
             },
             axisLine: {
-              show: false,
+              show: true,
               lineStyle: {
                 color: utils.getGrays()['300'],
                 type: 'solid'
@@ -1630,25 +1617,25 @@ var echartsRevenueBilledChartInit = function echartsRevenueBilledChartInit() {
             splitLine: {
               show: false
             },
-            data: ['2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023']
+            data: ['2017', '2018', '2019', '2020', '2021', '2022', '2023']
           },
           series: [{
             name: 'Revenue Collected',
             type: 'line', 
             stack: "stack",
-            data: [61823, 41389, 49034, 41970, 31174, 81203, 31489, 91034],
+            data: [41389, 49034, 41970, 31174, 81203, 31489, 91034],
             smooth: true,
           }, {
             name: 'Billing Efficiency',
             type: 'line', 
             stack: "stack",
-            data: [9400, 9400, 9400, 9400, 9400, 9400, 9403, 9400],
+            data: [9400, 9400, 9400, 9400, 9400, 9403, 9400],
             smooth: true,
           }],
           grid: {
-            right: '5%',
-            left: '7%',
-            bottom: '8%',
+            right: 5,
+            left: '8%',
+            bottom: '20%',
             top: 15,
           }
         };
@@ -1674,6 +1661,7 @@ var echartsInstalledMGCapacityGeneratedChartInit = function echartsInstalledMGCa
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
+          color: ["#2c7be5", "#198754"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -1692,7 +1680,7 @@ var echartsInstalledMGCapacityGeneratedChartInit = function echartsInstalledMGCa
           yAxis: {
             type: 'value',
             axisLine: {
-              show: false,
+              show: true,
               lineStyle: {
                 color: utils.getGrays()['300'],
                 type: 'solid'
@@ -1737,13 +1725,13 @@ var echartsInstalledMGCapacityGeneratedChartInit = function echartsInstalledMGCa
             data: [82, 89, 94, 97, 74, 81, 89, 94,],
             itemStyle: {
               barBorderRadius: [0, 0, 0, 0],
-              borderColor: "",
-              borderWidth: 0,
+              borderColor: "#000000",
+              borderWidth: 0.5,
             },
             showBackground: true,
             backgroundStyle: {
             color: 'rgba(180, 180, 180, 0.2)',
-            barBorderRadius: [0, 0, 0, 0],
+            barBorderRadius: [0, 0, 10, 10],
             
             }
           }, {
@@ -1753,9 +1741,9 @@ var echartsInstalledMGCapacityGeneratedChartInit = function echartsInstalledMGCa
             data: [94, 40, 94, 90, 90, 94, 40, 90],
             smooth: true,
             itemStyle: {
-                barBorderRadius: [0, 0, 0, 0],
-                borderColor: "",
-                borderWidth: 0,
+                barBorderRadius: [10, 10, 0, 0],
+                borderColor: "#000000",
+                borderWidth: 0.5,
               },
           }
         ],
@@ -2192,80 +2180,399 @@ var echartsSBTChartInit = function echartsSBTChartInit() {
       echartSetOption(chart, userOptions, getDefaultOptions);
     }
   };
+/* -------------------------------------------------------------------------- */
 
-
-   /* -------------------------------------------------------------------------- */
-
-/*                                     REGISTERED PROGRAMME                            */
+/*                 Hourly Energy Generated by Gencos Chart                           */
 
 /* -------------------------------------------------------------------------- */
 
 
-  var echartsRegisteredProgrammeInit = function echartsRegisteredProgrammeInit() {
-    var $echartsRegisteredProgramme = document.querySelector('.registered');
-  
-    if ($echartsRegisteredProgramme) {
-      var userOptions = utils.getData($echartsRegisteredProgramme, 'options');
-      var chart = window.echarts.init($echartsRegisteredProgramme);
-  
-      var getDefaultOptions = function getDefaultOptions() {
-
-        return {
-              tooltip: {
-                trigger: 'item'
-              },
-              visualMap: {
-                show: false,
-                min: 80,
-                max: 600,
-                inRange: {
-                  colorLightness: [0, 1]
-                }
-              },
-              series: [
-                {
-                  name: 'Access From',
-                  type: 'pie',
-                  radius: '55%',
-                  center: ['50%', '50%'],
-                  data: [
-                    { value: 335, name: 'Direct' },
-                    { value: 310, name: 'Email' },
-                    { value: 274, name: 'Union Ads' },
-                    { value: 235, name: 'Video Ads' },
-                    { value: 400, name: 'Search Engine' }
-                  ].sort(function (a, b) {
-                    return a.value - b.value;
-                  }),
-                  roseType: 'radius',
-                  label: {
-                    color: 'rgba(255, 255, 255, 0.3)'
-                  },
-                  labelLine: {
-                    lineStyle: {
-                      color: 'rgba(255, 255, 255, 0.3)'
-                    },
-                    smooth: 0.2,
-                    length: 10,
-                    length2: 20
-                  },
-                  itemStyle: {
-                    color: '#185B86',
-                    shadowBlur: 1,
-                    shadowColor: 'rgba(0, 0, 0, 0.5)'
-                  },
-                  animationType: 'scale',
-                  animationEasing: 'elasticOut',
-                  animationDelay: function (idx) {
-                    return Math.random() * 200;
-                  }
-                }
-              ]   
-        };
-      };
-      echartSetOption(chart, userOptions, getDefaultOptions);
-    }
+var HourlyEnergyGeneratedChartInit = function HourlyEnergyGeneratedChartInit() {
+  var $echartsHourlyEnergyGeneratedChart = document.querySelector('.hourly-energy-generated');
+  var dataset = {
+      all: [14, 10, 16, 12, 13, 12, 7, 9, 15, 10, 11, 16, 12, 17, 12, 14, 16, 15, 14, 10, 6, 12, 7, 12]
   };
+  var labels = ['0:00', '1:00', '2:00', '3:00', '4:00', '5:00', '6:00', '7:00','8:00', 
+  '9:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00','16:00', '17:00', '18:00', '19:00', '20:00',
+   '21:00', '22:00', '23:00'];
+
+  if ($echartsHourlyEnergyGeneratedChart) {
+      var userOptions = utils.getData($echartsHourlyEnergyGeneratedChart, 'options');
+      var chart = window.echarts.init($echartsHourlyEnergyGeneratedChart);
+
+      var getDefaultOptions = function getDefaultOptions() {
+          return {
+              tooltip: {
+                  trigger: 'axis',
+                  axisPointer: {
+                      type: 'none'
+                  },
+                  padding: [7, 10],
+                  backgroundColor: utils.getGrays()['100'],
+                  borderColor: utils.getGrays()['300'],
+                  borderWidth: 1,
+                  transitionDuration: 0,
+                  formatter: function formatter(params) {
+                      return "".concat(params[0].axisValue, " - ").concat(params[0].value, "%");
+                  },
+                  textStyle: {
+                      fontWeight: 500,
+                      fontSize: 12,
+                      color: utils.getColors().dark
+                  }
+              },
+              xAxis: {
+                  type: 'category',
+                  data: labels,
+                  
+                  axisLine: {
+                      lineStyle: {
+                          color: utils.getGrays()['400'],
+                      }
+                  },
+                  axisTick: {
+                      show: true,
+                      length: 10,
+                      lineStyle: {
+                          color: utils.getGrays()['300'],
+                      }
+                  },
+                  axisLabel: {
+                      color: utils.getGrays()['400'],
+                      fontWeight: 600,
+                      fontSize: 12,
+                      interval: window.innerWidth < 768 ? 'auto' : 0,
+                      margin: 15
+                  },
+                  boundaryGap: false
+              },
+              yAxis: {
+                  type: 'value',
+                  axisPointer: {
+                      show: false
+                  },
+                  splitLine: {
+                    show: true,
+                    lineStyle: {
+                        color: utils.getGrays()['300'],
+                    },
+                    interval: 0
+                },
+                  axisLabel: {
+                      show: false
+                  },
+                  axisTick: {
+                      show: false
+                  },
+                  axisLine: {
+                      show: false
+                  }
+              },
+              series: [{
+                  type: 'line',
+                  smooth: true,
+                  data: dataset.all,
+                  symbol: 'emptyCircle',
+                  itemStyle: {
+                      color: '#2c7be5'
+                  },
+                  lineStyle: {
+                      color: '#2c7be5'
+                  },
+                  areaStyle: {
+                      color: {
+                          type: 'linear',
+                          x: 0,
+                          y: 0,
+                          x2: 0,
+                          y2: 1,
+                          colorStops: [{
+                              offset: 0,
+                              color: '#2c7be5'
+                          }, {
+                              offset: 1,
+                              color: localStorage.getItem('theme') === 'light' ? 'rgba(255, 255, 255, 0)' : utils.rgbaColor(utils.getColors().primary, 0)
+                          }]
+                      }
+                  },
+                  emphasis: {
+                      lineStyle: {
+                          width: 2
+                      }
+                  }
+              }],
+              grid: {
+                  right: '45px',
+                  left: '45px',
+                  bottom: '10%',
+                  top: '1%'
+              }
+          };
+      };
+
+      echartSetOption(chart, userOptions, getDefaultOptions);
+      utils.resize(function() {
+          if (window.innerWidth < 768) {
+              chart.setOption({
+                  xAxis: {
+                      axisLabel: {
+                          interval: 'auto'
+                      }
+                  }
+              });
+          }
+      });
+  }
+};
+
+  /* -------------------------------------------------------------------------- */
+
+/*                           Industry KPI Generation  Installed                    */
+
+/* -------------------------------------------------------------------------- */
+
+
+var echartsInstalledCapacityChartInit = function echartsInstalledCapacityChartInit() {
+  var $echartsInstalledCapacityChart = document.querySelector('.installed-capacity');
+
+  if ($echartsInstalledCapacityChart) {
+    var userOptions = utils.getData($echartsInstalledCapacityChart, 'options');
+    var chart = window.echarts.init($echartsInstalledCapacityChart);
+
+    var getDefaultOptions = function getDefaultOptions() {
+      return {
+        color: ["#3448f0", "#ff718b"],
+        tooltip: {
+          trigger: 'axis',
+          axisPointer: {
+            type: 'shadow'
+          },
+          backgroundColor: utils.getGrays()['100'],
+          borderColor: utils.getGrays()['300'],
+          textStyle: {
+            color: utils.getColors().dark,
+          },
+          borderWidth: 1,
+          transitionDuration: 0,
+          formatter: tooltipFormatter
+        },
+        backgroundColor: '#fff',
+        yAxis: {
+          type: 'category',
+          axisLabel: {
+            formatter: function formatter(value) {
+              return "".concat(value / 1000, "k");
+            },
+            color: utils.getGrays()['500']
+          },
+          axisLine: {
+            show: false,
+            lineStyle: {
+              color: utils.getGrays()['300'],
+              type: 'solid'
+            }
+          },
+          splitLine: {
+            lineStyle: {
+              type: 'solid',
+              color: utils.getGrays()['200']
+            }
+          }
+        },
+        xAxis: {
+          type: 'value',
+          axisLine: {
+            show: false,
+            lineStyle: {
+              color: utils.getGrays()['300'],
+              type: 'solid'
+            }
+          },
+          axisLabel: {
+            color: utils.getGrays()['500'],
+          },
+          axisTick: {
+            show: false
+          },
+          splitLine: {
+            show: false
+          },
+          data: ['2016']
+        },
+        series: [{
+          name: 'Renewable',
+          type: 'bar', 
+          data: [70],
+          smooth: true,
+          color: "#78add3",
+          itemStyle: {
+            barBorderRadius: [0, 0, 0, 0],
+            borderColor: "#000000",
+            borderWidth: 0.5,
+          },
+          label: {
+            show: true,
+            position: 'inside', // Display the label inside the bar
+            formatter: '{c}' + "%", // Display the data value
+            color: '#000', // White color for better visibility
+            fontWeight: 'bold'
+          }
+        }, {
+          name: 'Non-renewable',
+          type: 'bar', 
+          data: [30],
+          smooth: true,
+          color: "#caddff",
+          itemStyle: {
+            barBorderRadius: [0, 0, 0, 0],
+            borderColor: "#000000",
+            borderWidth: 0.5,
+          },
+          label: {
+            show: true,
+            position: 'inside', // Display the label inside the bar
+            formatter: '{c}'+ "%", // Display the data value
+            color: '#000', // White color for better visibility
+            fontWeight: 'bold'
+          }
+        }],
+        grid: {
+          right: 15,
+          left: '0%',
+          bottom: '8%',
+          top: 15,
+        }
+      };
+    };
+
+    echartSetOption(chart, userOptions, getDefaultOptions);
+  }
+};
+
+  /* -------------------------------------------------------------------------- */
+
+/*                           Industry KPI Generation  Available                    */
+
+/* -------------------------------------------------------------------------- */
+
+
+var echartsAvailableCapacityChartInit = function echartsAvailableCapacityChartInit() {
+  var $echartsAvailableCapacityChart = document.querySelector('.available-capacity');
+
+  if ($echartsAvailableCapacityChart) {
+    var userOptions = utils.getData($echartsAvailableCapacityChart, 'options');
+    var chart = window.echarts.init($echartsAvailableCapacityChart);
+
+    var getDefaultOptions = function getDefaultOptions() {
+      return {
+        color: ["#3448f0", "#ff718b"],
+        tooltip: {
+          trigger: 'axis',
+          axisPointer: {
+            type: 'shadow'
+          },
+          backgroundColor: utils.getGrays()['100'],
+          borderColor: utils.getGrays()['300'],
+          textStyle: {
+            color: utils.getColors().dark,
+          },
+          borderWidth: 1,
+          transitionDuration: 0,
+          formatter: tooltipFormatter
+        },
+        backgroundColor: '#fff',
+        yAxis: {
+          type: 'category',
+          axisLabel: {
+            formatter: function formatter(value) {
+              return "".concat(value / 1000, "k");
+            },
+            color: utils.getGrays()['500']
+          },
+          axisLine: {
+            show: false,
+            lineStyle: {
+              color: utils.getGrays()['300'],
+              type: 'solid'
+            }
+          },
+          splitLine: {
+            lineStyle: {
+              type: 'solid',
+              color: utils.getGrays()['200']
+            }
+          }
+        },
+        xAxis: {
+          type: 'value',
+          axisLine: {
+            show: false,
+            lineStyle: {
+              color: utils.getGrays()['300'],
+              type: 'solid'
+            }
+          },
+          axisLabel: {
+            color: utils.getGrays()['500'],
+          },
+          axisTick: {
+            show: false
+          },
+          splitLine: {
+            show: false
+          },
+          data: ['2016']
+        },
+        series: [{
+          name: 'Renewable',
+          type: 'bar', 
+          data: [70],
+          smooth: true,
+          color: "#78add3",
+          itemStyle: {
+            barBorderRadius: [0, 0, 0, 0],
+            borderColor: "#000000",
+            borderWidth: 0.5,
+          },
+          label: {
+            show: true,
+            position: 'inside', // Display the label inside the bar
+            formatter: '{c}' + "%", // Display the data value
+            color: '#000', // White color for better visibility
+            fontWeight: 'bold'
+          }
+        }, {
+          name: 'Non-renewable',
+          type: 'bar', 
+          data: [30],
+          smooth: true,
+          color: "#caddff",
+          itemStyle: {
+            barBorderRadius: [0, 0, 0, 0],
+            borderColor: "#000000",
+            borderWidth: 0.5,
+          },
+          label: {
+            show: true,
+            position: 'inside', // Display the label inside the bar
+            formatter: '{c}'+ "%", // Display the data value
+            color: '#000', // White color for better visibility
+            fontWeight: 'bold'
+          }
+        }],
+        grid: {
+          right: 15,
+          left: '0%',
+          bottom: '8%',
+          top: 15,
+        }
+      };
+    };
+
+    echartSetOption(chart, userOptions, getDefaultOptions);
+  }
+};
+
 
   /* -------------------------------------------------------------------------- */
 
@@ -2282,6 +2589,9 @@ docReady(echartsSystemCollapseChartInit);
 docReady(echartsATCnCChartInit);
 docReady(echartsAverageTariffChartInit);
 docReady(EnergyBilledChartInit);
+docReady(HourlyEnergyGeneratedChartInit);
+docReady(echartsInstalledCapacityChartInit);
+docReady(echartsAvailableCapacityChartInit);
 docReady(echartsEnergyRecievedChartInit);
 docReady(echartsRevenueCollectedChartInit);
 docReady(echartsRevenueBilledChartInit);
@@ -2290,5 +2600,8 @@ docReady(echartsPeopleConnectedMGChartInit);
 docReady(echartsCommunitiesConnectedMGChartInit);
 docReady(echartsMeteredVsUnmeteredInit);
 docReady(echartsSBTChartInit);
-docReady(echartsRegisteredProgrammeInit)
+
+
+
+
 

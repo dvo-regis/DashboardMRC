@@ -27,15 +27,17 @@
 }
 
 #sidebar{
-    width: 200px; 
-    align-self: stretch; 
+    height: 250em;
+    width: 200px;
+    position: fixed;
+    align-self: stretch;
     padding: 50px 30px;
-    background: #090909;  
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: center; 
-    gap: 40px; 
-    display: inline-flex
+    background: #090909;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    display: flex;
 }
 
 #sidebar-name{
@@ -76,8 +78,7 @@
 
 #sidebar-icon{
     color: #ffffff;
-    width: 18.76px; 
-    height: 13.52px; 
+    width: 40.76px; 
     left: 0.62px; 
     top: 2.24px; 
     position: absolute;
