@@ -1945,7 +1945,7 @@ tbody tr:nth-child(even) {
   overflow: hidden;
   border: solid 0.1rem #eaecf0;
   box-sizing: border-box;
-  background-color: #fafcff;
+  background-color: #fff;
   border-radius: 0.8rem;
   flex-shrink: 0;
 }

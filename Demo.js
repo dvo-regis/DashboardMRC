@@ -1561,7 +1561,7 @@ var echartsRevenueBilledChartInit = function echartsRevenueBilledChartInit() {
   
       var getDefaultOptions = function getDefaultOptions() {
         return {
-          color: ["#3448f0", "#ff718b"],
+          color: ["#3448f0"],
           tooltip: {
             trigger: 'axis',
             axisPointer: {
@@ -1576,15 +1576,9 @@ var echartsRevenueBilledChartInit = function echartsRevenueBilledChartInit() {
             transitionDuration: 0,
             formatter: tooltipFormatter
           },
-         
+          
           yAxis: {
             type: 'value',
-            axisLabel: {
-              formatter: function formatter(value) {
-                return "".concat(value / 1000, "k");
-              },
-              color: utils.getGrays()['500']
-            },
             axisLine: {
               show: true,
               lineStyle: {
@@ -1592,6 +1586,9 @@ var echartsRevenueBilledChartInit = function echartsRevenueBilledChartInit() {
                 type: 'solid'
               }
             },
+            axisLabel: {
+                color: utils.getGrays()['500'],
+              },
             splitLine: {
               lineStyle: {
                 type: 'solid',
@@ -1617,27 +1614,26 @@ var echartsRevenueBilledChartInit = function echartsRevenueBilledChartInit() {
             splitLine: {
               show: false
             },
-            data: ['2017', '2018', '2019', '2020', '2021', '2022', '2023']
+            data: ['2017', '2018', '2019', '2020', '2021', '2022',
+                   '2023',
+                  ]
           },
           series: [{
-            name: 'Revenue Collected',
-            type: 'line', 
-            stack: "stack",
-            data: [41389, 49034, 41970, 31174, 81203, 31489, 91034],
-            smooth: true,
-          }, {
-            name: 'Billing Efficiency',
-            type: 'line', 
-            stack: "stack",
-            data: [9400, 9400, 9400, 9400, 9400, 9403, 9400],
-            smooth: true,
-          }],
-          grid: {
-            right: 5,
-            left: '8%',
-            bottom: '20%',
-            top: 15,
-          }
+            name: 'Naira',
+            type: 'bar',
+            data: [89, 94, 97, 74, 81, 89, 94,],
+            showBackground: true,
+            backgroundStyle: {
+            color: 'rgba(180, 180, 180, 0.2)'
+            }
+          }, 
+        ],
+        grid: {
+          right: 5,
+          left: '6%',
+          bottom: '20%',
+          top: 15,
+        }
         };
       };
   
